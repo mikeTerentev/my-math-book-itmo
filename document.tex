@@ -694,7 +694,7 @@ $ \Longrightarrow\Longrightarrow \\
     $ \forall a_1 \dots a_n > 0 \\
      \frac{a_1 + \dots + a_n}{n} \geq^n\sqrt{a_1 \dots a_n} \\ $
      \subsection{Неравенство психоделическое}
-     1. Неравенство Йенсена, f -вып $ <A,B> \\
+     1. \textbf{Неравенство Йенсена}, f -вып $ <A,B> \\
      \phi  : \[a,b\]\rightarrow <A,B> $ непрерывна \\
     $ \alpha :  [a,b]\rightarrow [0, +\infty )$ непрерывна, $  \int_a^b d(x) dx = 1 \\$
         Тогда $ а(\int_a^b d(x) \phi(x) dx) \leq  \int_a^b  \alpha(x) f(\phi(x))dx \\ 
@@ -720,6 +720,7 @@ $ \Longrightarrow\Longrightarrow \\
      Тогда:
      $ \sum_{i=1}^n a_ib_i \leq (\sum_{i=1}^n a_i^p)^{\frac{1}{p}} (\sum_{i=1}^n b_i^q)^\frac{1}{q} \\$
      Неравентсво достигается, если \\$ \overline{a}  = (a_1^p, a_2^p \dots a_n^p) \\  \overline{b}  = (b_1^p, b_2^p \dots b_n^p) \\ \overline{a} | | \overline{b} \\$
+     //
      \textbf{Доказательство}\\
      $ (\sum \alpha_i x_i)^p \leq \sum \alpha_ x_i^p $- неравенсто Иенсена \\
      $ \alpha_i  := \frac{b_i^q}{\sum_j b_j^q}, \alpha_i \beta_i^{-\frac{1}{p-1}} (\sum_j b_j^q) \\
@@ -732,6 +733,7 @@ $ \Longrightarrow\Longrightarrow \\
      \subsection{Интегральное Неравенсвто Гельдера}
      $ p > 1 , \frac{1}{p} + \frac{1}{q}=1, f,g \in C[a,b]\\ $
      Тогда $ |\int_a^b f(x)g(x) dx| \leq (\int_a^b |f(x)^p dx|)^{\frac{1}{p}} (\int_a^b |g(x)|^q dx)^{\frac{1}{q}} \\$
+     //
      \textbf{Доказательство}\\
       $ x_k = a+ \frac{b-a}{n}k , \xi_k = x_k \\
       a_k:= f(x_k)(\frac{b-a}{n})^\frac{1}{p}, b_k = g(x_k)(\frac{b-a}{n})^{\frac{1}{q}} \\ 
@@ -744,6 +746,7 @@ $ \Longrightarrow\Longrightarrow \\
     \subsection{Неравенство Минковского}
     $ p\geq 1, a_1 , \dots , a_n,b_1 , \dots , b_n \in \mathbb{R} \\ $
     Тогда $ (\sum_{i=1}^n |a_i +b_i|^p)^{\frac{1}{p}}\leq (\sum |a_i|^p)^{\frac{1}{p}} + (\sum |b_i|^p)^{\frac{1}{p}} \\$
+    //
     \textbf{Доказательство}
     $ p=1 $очевидно \\
     $ p>1\\$
@@ -871,5 +874,127 @@ $ \Longrightarrow\Longrightarrow \\
  $ f(\alpha_1 t_1  +(1- \alpha_1)t_2) \leq \alpha_1 f(t_1) + (1 - \alpha_1) f(t_2)\\
  x_{(\alpha_1 t_1  +(1- \alpha_1)t_2-1}e^{-x} \leq \alpha_1 x^{t_1-1}e^{-x} + (1 - \alpha_1) x^{t_2 - 1} e^{-x} \\
  \int_0^{+\infty}x^{\alpha_1 t_1 + (1 - \alpha)}$
-      
+     \textbf{3} 
+ $ \Gamma(t+1)=t\Gamma(t) \\
+ \Gamma(t+1)= \int_0^{+\infty} x^t e^{-x}dx = -x^t e^{-x}|_{x=0}^{x=+\infty} + int_0^{+\infty} t x ^{t-1}e^{-x}dx$ \\
+	$ lim_{\mathbb{R}\rightarrow +\infty} \mathbb{R}^t e^{-\mathbb{R}} =(lim_{\mathbb{R} \rightarrow +\infty} \frac{\mathbb{R}}{e^{\frac{R}{t}}})^t = (lim_{R\rightarrow +\infty} \frac{1}{\frac{1}{t}}e^{\frac{R}{t}})=0 $\\
+	
+	$	\Gamma(1) = \int_0^{+ \infty}e^{-x}=1 \\
+	\Gamma(n+1)= n! $
+	..
+	\rfoot{26 марта 2018}
+	\subsection{Интеграл Эйлера-Пуасонна}
+	
+	$ \int_0^{+\infty} e^{-x} dx =\frac{1}{2}\sqrt{\pi}\\ $
+	Сходятся при $x > x_0$ , $ e^{-x^2}<\frac{1}{x^2}\\
+	x>0, 1- x^2 \leq  e^{-x^2}\leq \frac{1}{1+x^2}\\ $
+	Следует из неравенства $e^t \geq 1+ t\\
+	\int_0^1 (1-x^2)^n  dx \leq \int_0^1 e^{-nx^2} \leq \int_0^{+\infty} e^{-nx^2} \leq \int_0^{+\infty}\frac{dx}{(1+x^2)^2} $\\
+	Л.ч. $=_{x=cos(t)} $  $ -\int_{\frac{\pi}{2}}^0 sin^{2n+1}t dt =\frac{(2n)!!}{(2n+1)!!} \\$
+	Средняя часть $ \int_0^{+\infty} e^{-nx^2}dx =_{(x=\frac{y}{\sqrt{n}})} \frac{1}{\sqrt{n}}\int_0^{+\infty} e^{-y^2} dy\\ $
+	Л.ч. $ =_{x=tgt} \int_0^{\frac{\pi}{2}} cos^{2n-2}t dt =_{(t=\frac{\pi}{2}-y)} \frac{(2n-3)!!}{(2n-2)!!}\frac{\pi}{2}\\  
+	\int_0^{\frac{\pi}{2}}sin^x=
+	\left[
+	\begin{gathered} 
+	\frac{(n-1)!!!}{n!!} \frac{\pi}{2}, n \% 2 =0
+	\\
+		\frac{(n-1)!!!}{n!!} \frac{\pi}{2} , n \% 2 !=0
+	\\
+	\end{gathered} 
+	\right. \\
+	\frac{(2k)!!}{(2k+1)!!}\frac{1}{\sqrt{k}} \Rightarrow \sqrt{\pi} $ -формула Валлиса \\
+	$ \frac{(2n)!!}{(2n+1)!!} \frac{1}{\sqrt{n}}\frac{n}{2n+1}=\frac{(2n)!!}{(2n+1)!!}\sqrt{n} \leq \int_0^{+\infty} e^{-x^2} dx\leq \frac{(2n-3)!!}{(2n-2)!!}\frac{\pi}{2}\sqrt{n}=\frac{1}{\frac{(2n-1)!!}{(2n-3)!! \sqrt{2n-1}}}\frac{\sqrt{n}}{\sqrt{n-1}}\frac{\pi}{2}\\
+	 $ Левая часть стремится к $ \frac{\sqrt{n}}{2} $\\
+	 
+	 \section{Абсолютно сходящийся интеграл}
+	 $ f $- доп. на $ <a,b>\\
+	 \int_a^b f -$ абсоютно сходящийся, есди :
+	 1. Он сходится \\
+	 2. $ \int_a^b |f| $ сходится\\
+	 
+	 \subsection{Теорема}
+	 f - доп на$ <a,b>\\$
+	 Экв 1. $\int_a^b f $абс сходится\\
+	 2.$ \int_a^b |f| -$сходится\\
+	 3.$ \int_a^b f_+, \int_a^b f_- $-оба сходтся\\
+	 \\
+	 \\
+	 $ 1\Rightarrow2, 2 \Rightarrow 3 : f_+\leq|f|, f_-\leq|f| \\
+	 3 \Rightarrow 1 : f = f_= - f_- , |f| = f_+ + f_- \\
+	     \int_a^b f = \int_a^b f_+ - \int_a^b f_- \\ $   
+
+Пример: $ \int_1^{+\infty} \frac{sinx}{x^p} dx\\
+ 1<p, $абсолютная сх. $ \int_1^{+\infty} \frac{|sinx|}{x^p}dx - cx, \frac{|sinx|}{x^p} \leq \frac{1}{x^p}, p>1\\ $
+ \\
+ $ 0<p\leq 1 $ сходится $ \int_1^{+\infty} \frac{sinx}{x^p}= -\frac{cosx}{x^p}|_{x=1}^{x=+\infty} -p \int_1^{+\infty} \frac{cosx}{x^{p+1}}dx $, \\
+ сходимость неабсолютная: $ p \in [0,1], \int_1^{+\infty}\frac{|sinx|}{x^p}\geq \frac{1}{10^6}\int_1^{+\infty} \frac{1}{x^p}dx =+\infty $\\
+ Фокус: $ \int_1^{+\infty} \frac{|sinx|}{x^p}\geq \int_1^{+\infty}\frac{sin^2x}{x^p}=\int_1^{+\infty}\frac{1}{2x^p}_{(=+\infty)}-\int_1^{+\infty}\frac{cos2x}{x^p} \leftarrow$ сходится\\
+ \section{Теорема. Признак Аблеля-Дирихле}
+ D.1 f-доп. на$ [a,b),$ \\
+  \boxed{$F(A) = \int_a^A f$-ограничена }\\
+  $ \exists K, \forall A \in (a,b), |\int_a^A f| \leq K $\\
+  2. $ g \in C^1[a,b), g(x) \rightarrow 0, x\rightarrow 0, x\rightarrow b - 0$\\$  $
+$ g(x)- $монотонна\\
+\\
+Тогда \boxed{$ \int_a^bf(x)g(x)dx- $ сходится}\\
+\\
+A.1. f- доп.  $ \int_a^b f - $ сход. (не обязательно абсолютно)\\
+ 2. $ g \in C^1 [a,b), g(x)- $монотонна\\
+ g- ограничена, т.е. $ \exists L, \forall x \in  [a,b), |g(x)|\leq L $\\
+//
+ Тогда $\int_a^b fg- $сход.
+//     
+\textbf{Доказательство.D По частям}\\
+$ \int_a^R f(x)g(x)dx =F(x)g(x)|_a^R$ огр. и б.м. -$ \int_a^R F(x)g'(x)dx =F(R)g(R)-F(a)g(a) -\int_a^R F(x)g'(x) $ существует конечный предел при $ R \rightarrow b - 0 $,т.к $ \int_a^b Fg'$-абс. сходится:\\  $ \int_a^b |Fg'| \leq k \int_a^b|g'| $-c пост знаком $ = \underline{+} k \int_a^b g' \leftarrow$сходится \\ 
+$ \int_a^b g' = g|_a^b= -g(a) $- сущ \\
+\\
+\textbf{Доказательство.A}\\
+$ \alpha = lim_{x \rightarrow b - 0} g(x)\\
+fg=f \alpha + f(g-\alpha)\\
+\int_a^b \alpha f  $-сходится, т.к. $\int_a^b f  $-сходтся\\
+$ \int_a^b  f(g - \alpha) $-  схожится по признаку Дирихле\\
+
+ $\int_1^{+\infty} \frac{sinx}{dx^p}  $-сходится при p>0\\
+ $ f \leftrightarrow sin x, F=cosx $-огр.\\
+$ g=\frac{1}{x^p}, g\rightarrow 0(т.к. p>0) \\$
+g -монотонна\\
+
+Пример
+$\int_0^{+\infty} \frac{sin x}{x} =\frac{\pi}{2} $-принцип Дирихле\\
+$ cosx +cos 3x + \dots+ cos nx = \frac{sin(n + \frac{1}{2}x)}{2 sin\frac{x}{2}}-\frac{1}{2} $\\
+$ \int_0^\pi cos kx = \frac{1}{k} sin kx|_0^\pi = 0$\\
+$ 0=\int_0^\pi \int_0^\pi \frac{sin(n+\frac{1}{2}x)}{2sin \frac{x}{2}} dx -\frac{\pi}{2} $\\
+\boxed{ $ \int_0^{\pi} h(x) sin Ax dx \rightarrow_{A \rightarrow +\infty} 0  $} - если $ h(x)  \in C^1 [0,\pi]$
+
+\section{Ряды}
+\subsection{Простейшие свойства}
+$ S_N := a_1+a_2+a_3+ \dots + a_N = \sum_{n=1}^N a_n  $-частичная сумма \\
+\\Если существует \boxed{ $ lim_{N \rightarrow +\infty} S_N = S \in \overline{\mathbb{R}}$} ,то он  называется \textbf{сумма ряда}}\\
+$ S \in \mathbb{R} $- ряд сходится \\
+$ S = \underline{+}\infty $ или  $ not\exists lim S_N $ -ряд расходится \\
+\\Наблюдение:$ a_n =S_n -S_n{n-1} $\\
+$ \sum_{n=1}^{+\infty}0 =0 $ т.е. $ a_n =0, \forall n$\\
+$  \sum_{n=1}^{+\infty}1= +\infty, S_N=N  $\\ \\
+\subsection{m-ый остаток ряда}
+$ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m} $\\
+\subsection{Свойства}
+
+1. $ \sum a_n, \sum b_n $-сходятся\\
+	$ c_n= a_n+b_n$ при всех n\\
+	Тогда $\sum c_n $-сходится и $ \sum c_n =\sum a_n +\sum b_n $\\
+	Очевидно, $ S_N^(c)=S_N^(a)+S_N^(b) $\\
+	
+2. $ \sum a_n $-сход $ \lambda \in \mathbb{R} $ Тогда $ \sum(\lambda a_n) $-сход $ (\sum\lambda a_n)=\lambda \sum a_n $\\
+$ S_N^{(\lambda a)} = \lambda S_N^{(a)} \\$
+
+3a. $ \sum_{n=1}^{+\infty} a_n $-сходящ $ \rightarrow \forall m \geq 1 $-m-ый остаток есть сзодящ ряд\\
+
+3б. Если какой-нибудь остаток сх-ся $\rightarrow \sum a_n$-сходящийся\\
+
+3в. ряд $ \sum a_n $сходящ. $ \Leftrightarrow  R_m \rightarrow_{m \rightarrow +\infty 0}$\\
+\textbf{Докзаательство}\\
+a. $ \sum_{n=1}^N a_n = \sum_{n=1}^{m-1} a_n +\sum_{n=m}^N a_n  $, (при N>m) (*) \\
+
+В частности $ \fbox{\sum_{n=1}^{+\infty} a_n =  \sum_{n=1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n } $\\
+б. m-ый остаток сходится  $  \rightarrow $ в  форме (*) $ N \rightarrow +\infty, \Rightarrow \sum a_n - $сходится\\
    \end{document}
