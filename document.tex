@@ -10,7 +10,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{array}
-\usepackage[left=2.3cm, right=2.3cm, top=1.7cm, bottom=1.7cm, bindingoffset=0cm]{geometry}
+\usepackage[left=2.3cm, right=3.3cm, top=1.7cm, bottom=1.7cm, bindingoffset=0cm]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{float}
@@ -20,10 +20,13 @@
 \usepackage{multicol}
 \usepackage{fancyhdr} 
 \usepackage{extramarks}
+\usepackage{todonotes}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{titlesec}
 \graphicspath{{pictures/}}
-
+\usepackage{lipsum}                     % Dummytext
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[pdftex,dvipsnames]{xcolor} 
 \title{Математический анализ.}
 \author{Автор конспекта: Терентьев Михаил, Константин Ништ}
 \date{\today}
@@ -41,12 +44,20 @@
 \newcommand{\nl}{\newline}
 \newcommand{\intba}{\int^b_a}
 
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\explainindetail}[1]{\todo[color=red!40]{#1}}
+
 \titlespacing*{\section}{0pt}{5pt}{0pt}
 \titlespacing*{\subsection}{0pt}{5pt}{0pt}
 \titlespacing*{\subsubsection}{0pt}{5pt}{0pt}
 
 \begin{document}
+	\section{TODO TUTORIAL}
 
+\todo{Make a cake \ldots},
+mfoermflgemgler\insertref{wqwsqdwqdqwd};
+
+\newpage
 \section{Неопределённый интеграл}
 \lfoot{Автор конспекта: Константин Ништ}
 \subsection{Определение}
@@ -981,20 +992,190 @@ $ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m} $\\
 
 1. $ \sum a_n, \sum b_n $-сходятся\\
 	$ c_n= a_n+b_n$ при всех n\\
-	Тогда $\sum c_n $-сходится и $ \sum c_n =\sum a_n +\sum b_n $\\
-	Очевидно, $ S_N^(c)=S_N^(a)+S_N^(b) $\\
+	Тогда \boxed{$\sum c_n $-сходится и $ \sum c_n =\sum a_n +\sum b_n $}\\
+	Очевидно, $ S_N^{(c)}=S_N^{(a)}+S_N^{(b)} $\\
 	
-2. $ \sum a_n $-сход $ \lambda \in \mathbb{R} $ Тогда $ \sum(\lambda a_n) $-сход $ (\sum\lambda a_n)=\lambda \sum a_n $\\
+2. $ \sum a_n $-сходится $ \lambda \in \mathbb{R} $\\
+ Тогда \boxed{$ \sum(\lambda a_n) $-сходится, $ (\sum\lambda a_n)=\lambda \sum a_n $}\\
 $ S_N^{(\lambda a)} = \lambda S_N^{(a)} \\$
 
-3a. $ \sum_{n=1}^{+\infty} a_n $-сходящ $ \rightarrow \forall m \geq 1 $-m-ый остаток есть сзодящ ряд\\
+3a. $ \sum_{n=1}^{+\infty} a_n $-сходящ $ \Rightarrow \forall m \geq 1 $-m-ый остаток есть сходящийся ряд\\
 
-3б. Если какой-нибудь остаток сх-ся $\rightarrow \sum a_n$-сходящийся\\
+3б. Если какой-нибудь остаток сх-ся $\Rightarrow \sum a_n$-сходящийся\\
 
 3в. ряд $ \sum a_n $сходящ. $ \Leftrightarrow  R_m \rightarrow_{m \rightarrow +\infty 0}$\\
-\textbf{Докзаательство}\\
+\textbf{Доказательство}\\
 a. $ \sum_{n=1}^N a_n = \sum_{n=1}^{m-1} a_n +\sum_{n=m}^N a_n  $, (при N>m) (*) \\
 
 В частности $ \fbox{\sum_{n=1}^{+\infty} a_n =  \sum_{n=1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n } $\\
 б. m-ый остаток сходится  $  \rightarrow $ в  форме (*) $ N \rightarrow +\infty, \Rightarrow \sum a_n - $сходится\\
+
+\rfoot{2 апреля 2018}
+
+\subsection{Теорема(необъодимое условие сходимости)}
+$ \sum a_k - cx, $ Тогда\\
+ \boxed{$ a_k \rightarrow_{k \rightarrow + \infty} 0 $}\\
+\textbf{Доказательство}\\
+$ a_k = S_k - S_{K-1} \rightarrow_{k \rightarrow +\infty} S - S = 0 $\\
+
+$ a_k \rightarrow 0 \Rightarrow \sum a_k c_k$ \textbf{НЕВЕРНО!}   \\
+$ \frac{1}{k} \rightarrow 0 , \sum\frac{1}{k}   $расходится $ \boxed{\sum_{k=1}^{n} \frac{1}{k}\sim \ln n} $\\
+	Пример. $ \sum_{k=1}^{+\infty} \sin k -  $расходится: $ \sin k \rightarrow_{k\rightarrow +\infty 0} \\$
+\subsection{Критерий Больцано-Коши}
+$ \sum a_n - $сходится $ \Leftrightarrow \forall \epsilon>0, \exists N, \forall k > N, \forall p \in \mathbb{N} $\\
+$ |\sum_{i =1 }^p a_{k+1}|<\epsilon\\
+|\sum_{n=k+1}^{k+p} a_{k+i}|<\epsilon\\
+\exists \lim_{k \rightarrow +\infty}S_k\in \mathbb{R},|S_{k+p} -S_k|<\epsilon \\
+\boxed{\exists \epsilon >0, \forall N, \exists k > N , \exists p , |a_{k+1}+a_{k+2}+\dots+a_{k+p} | \geq \epsilon} \\ $
+\section{Сходимость положительных рядов}
+\subsection{Лемма 1}
+$ a_n\geq 0, $Тогда \\
+$\boxed{\sum a_n -\text{сходится} \Leftrightarrow \text{плотность} S_n - \text{ограничена}} \\$
+\textbf{Доказательство} \\
+ $ a_n \geq 0 \rightarrow S_n \uparrow \\
+ \sum a_n $- сходится $ \Leftrightarrow \exists $кон. $ \lim S_n \Leftrightarrow S_n - $ограничена \\
+ \subsection{Признак сравниения}
+ $ (A) \sum a_k, (B) \sum b_k, a_k \geq 0, b_k \geq 0 $\\ 
+ 1. $\forall n, a_n \leq b_n $, Тогда \\
+ $ (B)- $сх. $ \Rightarrow (A) - $сходится. \\
+ $ (A)-  $расх. $\Rightarrow (B)$-расходится \\
+ 
+ 2. $ \lim_{n \rightarrow +\infty} \frac{a_n}{b_n}= l \in [0,+\infty], $Тогда
+ 	$ 0 l < +\infty, (A)- cx \Leftrightarrow (B)- cx. \\
+ 	l=0 : (B)-cx. \Rightarrow(A)- cx. \\
+ 	        (A)-.$расх. $ \Rightarrow (B) - $расходится\\
+ $	l=+\infty : (A)-cx. \Rightarrow(B)- cx. \\
+             (B)-.$расх. $ \Rightarrow (A) - $расходится\\
+      \textbf{Доказательство}\\
+      1) $ S_n^{(a)} \leq S_n^{(b)} $\\
+      По лемме$(B) - cx. \Rightarrow  S_n^{(b)}$-огр. $ \Rightarrow S_n^{(a)} $-огр $ \Rightarrow (A) -cx. 
+      (A)-$расх$ \Rightarrow S_n^{(a)} \rightarrow +\infty \Rightarrow S_n^{(b)} \Rightarrow +\infty \Rightarrow (B) -$расх. \\
+       Замечание.  Утверждение остается верным, если известно, что $ a_n \leq b_n $при $ n \geq N_0 $
+       2) $ 0 < l < +\infty \Rightarrow  $(Для $ \epsilon = \frac{1}{2} $) $ \exists N_0, \forall n > N_0 \\
+       \frac{l}{2} b_n < a_n < \frac{3}{2} l b_n \\
+      \Rightarrow  (B) - $расходится  $\Rightarrow$ (A)- расходится, (B)- сходится $ \Rightarrow $ (A)-cx. 
+      
+      $ l =\infty , $Для $ \epsilon =1 \exists N_0, \forall n > N_0 , b_n<a_n \\
+         l =0 , $Для $ \epsilon =1 \exists N_0, \forall n > N_0 , a_n<b_n  \\$
+         \textbf{Пример}\\
+         $ \sum_{k=1}^{+\infty} k^{2018} e^{-k} - $сходится \\
+         При больших k: $ k^{2018} e^{-k} \leq \frac{1}{k^2} =b_n,\leftarrow \exists N_0, \forall k > N_0 \\
+         \frac{a_n}{b_n} = \frac{k^{2020}}{e^k} \rightarrow_{k \rightarrow + \infty} 0 \\
+         \lim_{x \rightarrow + \infty} \frac{x^{2020}}{e^x} = (\lim_{x \rightarrow +\infty} \frac{x}{e^{\frac{x}{2020}}})^{2020} \\
+         \sum_{k=1}^{+\infty} e^{- \sqrt{k}}$ -сх. \\
+         $ e^{-\sqrt{k}}< \frac{1}{k^2} = e^{-2 \ln k} - $ при больиш k, $ \sqrt{k} > 2 \ln k $
+       \subsection{Признак сходимости ряда Коши} 
+       $ \sum a_n, a_n \geq 0, K_n :=^n\sqrt{a_n} \\
+       light: 1) \exists q < 1, K_n \leq q ,$НСНМ, Тогда (А) -сходится \\
+       $ K_n \geq 1, $для беск. кол-во n. Тогда (А) -расходится \\
+       $pro :  K:= \overline{\lim} K_n, 1) K> 1 \Rightarrow (A) -cx. \\
+                                                         2) K<1 \rightarrow (A )-$ расх. \\
+      Замечание. $ 1) K=1 $  \textbf{ПРИЗНАК НЕ РАБОТАЕТ} \\
+      $ \sum \frac{1}{n}, k = \lim_{n \rightarrow +\infty} (\frac{1}{n})^{\frac{1}{n}} = \lim \frac{1}{e^{\frac{\ln n}{n}}}=1 \\
+       \sum \frac{1}{n^2}, k = \lim(\frac{1}{n^2})^{\frac{1}{n}} = 1 \\
+       \textbf{Доказательство}\\
+       1. K_n \leq q, a_n^{\frac{1}{n}} \leq q, a_n \leq q^n,  $НСНМ \\
+       (B) -сходится $ \rightarrow (A)-cx. $\\
+       2. $K_n \geq 1  \Rightarrow a_n \geq 1$ для бесконечного числа номеров  $ \rightarrow  a_n not! \rightarrow 0 \Rightarrow (A) -  $расходится \\
+       
+       pro1.  $ \overline{\lim}_{n \rightarrow +\infty} (a_n)^{\frac{1}{n}} < 1 $(По тех  описанию)\\
+       $ \forall q : \overline{\lim} (a_n)^{\frac{1}{n}} < q < 1 $вып : \\
+       $ \exists N, \forall n > N ,  (a_n)^{\frac{1}{n}} < q  \rightarrow_{l.1} (A) $- сходится \\
+       pro2.  $ \overline{\lim} (a_n)^{\frac{1}{n}} = k > 1 \\
+        \exists $беск номеров $ (a_n)^{\frac{1}{n}} > 1 \rightarrow_{l.2} (A)- $расходится \\
+        \section{Признак Даламбера}
+        $ \sum a_k , a_k > 0, D_n := \frac{a_{n+1}}{a_n}\\
+        Light: 1) \exists q<1, D_n < q  $нснм => (A) $  \Rightarrow (A)- $сходится \\
+                $ 2) D_n \geq 1  $НСНМ $\Rightarrow$ (A -расходится )\\
+        Pro : Пусть существует $ \lim_{n \rightarrow +\infty} D_n =D \\
+        1)  D < 1 , (A) -cx. \\
+        2) D >1 , (A) $-расходится \\
+        \textbf{Доказательство} \\
+        1) $ \exists N, D_N =\frac{a_{N+1}}{A_N} < q,
+        \\ a_{N+1} < q< a_N $ Далее умножаем  для неравениств от 1 до К и получаем $0<a_{N+K} < q^k  a_N - const$\\
+        (A)-cx $ \Leftrightarrow \sum_{k=1}^{+\infty} a_{N+K}- cx. $\\
+        $ a_{N+K} \leq const q^k \\
+        \sum q^k -cx. \Rightarrow \sum_{k=1}^{+\infty} a_{N+K}- cx. \\
+        2. \exists N  $ при $ n \geq N, a_{n+1} \geq a_n \\
+        \Rightarrow a_n \up  $ при $ n \geq N \Rightarrow a_n  not \rightarrow 0 \Rightarrow A- $расходится \\
+        
+        pro1. $ \lim D_n= D < 1 , $ Пусть $ D< q < 1 \\ $
+        Тогда $ \exists N, \forall n > N , D_n < q,  $т.е. по l.1  (A) -сх. \\
+        pro2. $ \lim_{n \rightarrow +\infty}D_n =D > 1,  \exists n , \forall n  > N, D_n > 1 \Rightarrow(A) $-расх.\\
+        
+        \section{Лемма}
+        $ a_n_1b_n>0 \\
+        \frac{a_{n+1}}{a_n} \leq \frac{b{n+1}}{b_n}$ НСНМ \\
+        $ (\sum b_n) -cx. \Rightarrow (\sum a_n )- cx. $\\
+        
+        $ \sum b_n -cx \Rightarrow (\sum a_n)-cx.$\\
+        или
+         $ \sum a_n -rasx \Rightarrow (\sum b_n)-$расходится\\
+        \textbf{Докзаательство. нснм = 1}\\
+       $ \frac{a_2}{a_1} \leq \frac{b_2}{b_1}\\$ и тд до $ \frac{a_N}{A_N-1} \leq \frac{b_n}{b_{n-1}}$ \\ Перемножим и получим $a_n \leq b_n \frac{a_1}{b_1}$\\
+       \section{Признак Раабе}
+       
+       $ a_n >0, R_n := n(\frac{a_n}{a_{n+1} } -1 ) \\
+       1. R_n \geq r > 1 $НСНМ  $ \Rightarrow (A)- cx. \\
+       2. R_n\leq 1$ нснм $\Rightarrow$ (A)- расходится\\ 
+          \textbf{Доказательство} \\
+          1. $ R_n \geq r, n(\frac{a_n}{a_{n+1}}-1)\geq r \Leftrightarrow \frac{a_n}{a_{n+1}}\geq 1+ \frac{r}{n}$\\ 
+          $ b_n = \frac{1}{n^s}, \frac{b_n}{b_{n+1}}  = (\frac{n+1}{n})^s = (1+\frac{1}{n})^s $\\
+         \insertref{Нужен пример..Кохася}
+       2. $ R_n  \leq 1 \\
+       \frac{a_n}{a_{n+1}}\leq\frac{n+1}{n}=\frac{\frac{1}{n}}{\frac{1}{n+1}}\\
+       \frac{\frac{1}{n+1}}{\frac{1}{n}} \leq \frac{a_{n+1}}{a_n}\\
+       \sum \frac{1}{n}$-расх $ \Rightarrow \sum a_n $-расходится\\
+       
+       \subsection{Следствие}\\
+       $ \lim n(\frac{a_n}{a_{n+1}}-1)=r \\
+       r > 1 - cx\\
+       r<! - $расх \\
+       \textbf{Доказательство}\\
+        1. $  \underline{r>1}, r > r_0 >1$ \\
+        $ \lim R_n =r,  $НСНМ $ R_n > r_0 \Rightarrow_{P.1} (A)-cx.\\
+        \underline{r<1} $НСНМ $ R_n \leq 1 \Rightarrow_{P.2} (A)-$расходится \\
+        \textbf{Замечание}\\
+        $ \lim R_n =r, $то тогда $ a_n\approx \frac{1}{n^2} \\$
+          \insertref{Нужен пример..Кохася}
+      \textbf{Пример}\\
+      \section{Интегральный признак Коши}
+      \insertref{Нужна картинка}
+      f - монотонна на $[1, +\infty)$ - непрерывна, f $\geq$ \\
+       Тогда $ \sum_{k=1}^{+\infty} f(k), \int_{1}^{+\infty} f(x) dx,$ схожится и расходится одновременно\\
+       $ |S_n -\int_1^{n+1} f dx|= \triangle $-площадь фигуры закращенной в перовм столбике \\
+        $ \triangle_n \leq |f(1) = f(n + 1)| \\
+        \triangle_n \uparrow, \triangle_n - $ограничена\\
+        $ \exists \lim \triangle_n \in \mathbb{R} \\
+        \boxed{\text{Если} f \uparrow \text{и} \sum , \int \text{очевидно} =+\infty}\\
+        \sum_{k=1}^n f(k) - \sum_{k=1}^n \int_k^{k+1} f(x) dx = \sum_{k=1}^n(\int_k^{k+1}f(k)dx - \int_k^{k+1} f(x) dx = \sum_{k=1}^n \int_k^{k+1}(f(k)-f(x)) dx \leq \int_k^{k+1} (f(k) -f(k+1)) dx = \sum_{k=1}^n (f(k)-f(k+1))= f(1)-f(n+1)\\$
+        
+        \section{Абсолютаная сходимость}
+        $ \sum a_n $- абсолютно . сходится, если $
+        1. \sum a_n -cx. \\
+        2.\sum |a_n|-cx.$ \\
+        \textbf{Пример}
+        $ \sum a_n -cx.  not \Rightarrow \sum{a_n} $абсолютно сходится \\
+        $ \frac{1}{1+x^2} = 1 = x^2 +x^4 + \dots + (-1)^n x^{2n} + \frac{(-1)^{n+1}x^{2n+2}}{1+x^2}\\
+        \int_{0}^1 \frac{1}{1+x^2} =\int_{0}^1 \dots \\
+        \frac{\pi}{4}=(1=\frac{1}{3} +\frac{1}{5}+\dots (-1)^n \frac{1}{2n+1})+\triangle_n\\
+        \triangle_n = (-1)^{n+1} \int{0}^1 \frac{x^{2n+2}}{1+x^2}dx \\
+        |\triangle_n|\leq \int_0^1 x^{2n+2} dx =\frac{1}{2n+3}\\ $
+      $  \boxed{\frac{\pi}{4}=\sum \frac{(-1)^{n+1}}{2n-1}}$\\
+      \section{Теорема}
+       $ a__n $-произвольные слагаемые Экв:
+       1) Ряд $ \sum a_n  $абс сходится\\
+       2)$ \sum |a_n| -$сходится \\
+       3) $ \sum a_n^+, \sum a_n^- $ оба сходятся\\
+       \textbf{Доказательство}\\
+       $ 1\Rightarrow 2 $Трив\\
+       $   2\Rightarrow 3 , 0 \leq a_n^+ \leq |a_n| \\
+       3\Rightarrow 1 : a_n = a_N^+ - a_n^- , |a_n| = a_n^+ +a_n^- \\
+       $
+         
+        
+       
+
+	
+	
    \end{document}
