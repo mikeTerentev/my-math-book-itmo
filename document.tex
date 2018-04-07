@@ -313,16 +313,16 @@ l опорная прямая множества Е в т. А\\
     
     \subsection{Общая схема}
     
-    $Sigm<a,b> = \lbrace[x,y]:x,y \in <a,b>,x\leq \rbrace$ \\
+    $Sigm<a,b> = \lbrace[x,y]:x,y \in <a,b>,x \leq y \rbrace$ \\
     
      \subsection{Определение}
-     1) $f: Sigm<a,b> \rightarrow \mathbb{R}$ c палкой-функция промежутка \\
+     1) $f: Sigm<a,b> \rightarrow \overline{{\mathbb{R}}$-функция промежутка \\
      2) Аддитивная фп \\
       $\forall [p,q] \in Sign<a,b> \forall c \in(p,q) \\
      f([p,q])= f([p,c])+f([c,q])$\\
      3) Плотность аддититвной фп \\
      f: Sigm<>a,b $\rightarrow \mathbb{R}$\\
-     g-плотнотсь $\forall \vartriangle \in Sigm <a,b> (inf g)l(\vartriangle)\leq(sup g ) ,(\vartriangle) ps(l(\vartriangle)$- длина $\vartriangle)$\\
+     g-плотнотсь $\forall \vartriangle \in Sigm <a,b> (inf (g))l(\vartriangle)\leq F\leq(sup (g) )l(\vartriangle) ,l(\vartriangle)$- длина $\vartriangle)$\\
      
      
      \subsection{Теорема вычислении аддитивной функции по  плотности} \\ 
@@ -588,6 +588,8 @@ $ f(x)=ln(x) \\
   1- \int_1^n\frac{\{x\}(1-\{x\})}{x^2}dx -- возрастает как функция от n \\
   \int_1^n\frac{\{x\}(1-\{x\})}{x^2}dx \leq_1^n\frac{1}{x^2} = -\frac{1}{x}|_1^n = 1- \frac{1}{n} \leq 1\\  $
   \subsection{Формула Валлиса}
+  $\boxed{ \frac\pi2 = \lim\limits_{n \to \infty} \left[\frac{2n!!}{(2n-1)!!}\right]^2 \cdot \frac1{2n+1} }$\\
+  \todo{Сделать доказательство по-человечески}
   $ I_n = \int_0^{\frac{\pi}{2}} sin^nxdx = \begin{bmatrix}\frac{(n-1)!!}{n!!}*\frac{\pi}{2} - n \% 2 =0 \\\frac{(n-1)!!}{n!!} - n \% 2 !=0\end{bmatrix} \\
   sin^{2k+1}x \leq sin^{2x}x \leq sin^{2k-1}x, x \in [0,\pi/2] \\
   \frac{(2k!!)}{(2k+1)!!}\leq  \frac{(2k-1)!!}{(2k)!!}*\frac{\pi}{2}\leq  \frac{(2k-2)!!)}{(2k-1)!!} \\
