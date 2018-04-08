@@ -21,12 +21,11 @@
 \usepackage{fancyhdr} 
 \usepackage{extramarks}
 \usepackage{todonotes}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{titlesec}
+\usepackage{color}
 \graphicspath{{pictures/}}
 \usepackage{lipsum}                     % Dummytext
 \usepackage{xargs}                      % Use more than one optional parameter in a new commands
-\usepackage[pdftex,dvipsnames]{xcolor} 
+\usepackage{xcolor}
 \title{Математический анализ.}
 \author{Автор конспекта: Терентьев Михаил, Константин Ништ}
 \date{\today}
@@ -47,9 +46,6 @@
 \newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
 \newcommand{\explainindetail}[1]{\todo[color=red!40]{#1}}
 
-\titlespacing*{\section}{0pt}{5pt}{0pt}
-\titlespacing*{\subsection}{0pt}{5pt}{0pt}
-\titlespacing*{\subsubsection}{0pt}{5pt}{0pt}
 
 \begin{document}
 	\section{TODO TUTORIAL}
@@ -105,7 +101,7 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
 \section{Равномерная непрерывность}
     \subsection{Определение}
     f : <a; b> $\rightarrow \mathbb{R}$ называется равномерно непрерывной на <a;b>, если : \nl
-    $\forall \epsilon >0 \exists \delta > 0 \forall x, x' \in <a;b>, |x-x'|<\delta : f(x)-f(x')<\epsilon \nl$
+    $\forall \epsilon >0 \thickspace \exists \delta > 0 \thickspace \forall x, \thickspace x' \in <a;b>, \thickspace |x-x'|<\delta : f(x)-f(x')<\epsilon \nl$
     Примеры : \nl
     1. f(x) = x, <a; b> = $\mathbb{R}$ равномерно непрерывна \nl
     2. f(x) = $x^2$ не равномерно непрерывна \nl
@@ -184,7 +180,7 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
         \subsection{Определение интеграла}
         Определённым интегралом непрерывной функции f по промежутку [a;b] называется \nl
         $\int^b_a f = \int^b_a f(x) dx = \int_{[a; b]} f(x) dx = \delta \text{ПГ}(f^+([a; b])) - \delta \text{ПГ}(f^-([a; b]))$ \nl
-        Замечание : $f>=0 \Rightarrow \int^b_a >=0; \int^a_a = 0$
+        Замечание : $f \geq 0 \Rightarrow \int^b_a \geq 0; \int^a_a = 0$
         
         \subsection{Свойства интеграла}
         \subsubsection{Аддитивность по промежутку}
@@ -234,7 +230,7 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
 \subsection{Определение}
     A $\subset \mathbb{R}^m$ A - выпуклое множество \\
     $\forall x, y \in A$  $[x,y] \subset$ A \\
-    $\left[x,y]=\lbrace x+t(y-x), t \in [0,1] \rbrace$ \\
+    $[x,y]=\lbrace x+t(y-x), t \in [0,1] \rbrace$ \\
 
 \subsection{Определение}
     f:<a,b> $\rightarrow \mathbb{R}$ - выпуклая функция \\
@@ -267,8 +263,8 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
    $g(\xi)$ - монотонна, ограничена снизу  $\forall$ числом $g(\xi)$ таким , что$ \xi_0<x$ \\
  \textbf{Замечание} \\
   $ \text{На [a,b] возможна ситуация}  f_{+}'(a)= -\infty, f_{-}'(b)=+\infty$ \\
-  $ \frac{f(x_2)-f(x_1)}{x_2-x_1} =g(\xi) \rightarrow $ (возр  \xi$-> x_{2}) f_{-}'(x_{2}) , x=x_{2}, \xi=x_{1} $\\
-   $x=x_1, \xi=x_2 ; g(\xi) ->(\xi -> x_1 + 0) f_-\(x_1)$ \nl
+  $ \frac{f(x_2)-f(x_1)}{x_2-x_1} =g(\xi) \rightarrow $ (возр $ \xi -> x_{2}) f_{-}'(x_{2}) , x=x_{2}, \xi=x_{1} $\\
+   $x=x_1, \xi=x_2 ; g(\xi) ->(\xi -> x_1 + 0) f_-(x_1)$ \nl
   
   $g(\xi_{1}) \leq g(\xi_{2})$ при $\xi_{2} \rightarrow x_1 + 0$ \\
  => $g(\xi_{1}) \leq f_{+}'(x_{1})$ при $\xi_1 \rightarrow x_1 - 0$ \\
@@ -279,8 +275,8 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
    $\exists$ кон  $f_{+}'(x)$ => f непр в т. x справа \nl
    $\exists$ кон  $f_{-}'(x)$ => f непр в т. x слева \nl
  
-\subsection{Теорема о выпуклостях в терминах касательных} \\
-   f- дифф на $<a,b>$ \nl
+\subsection{Теорема о выпуклостях в терминах касательных}
+   f - дифф на $<a,b>$ 	\\
    Тогда f - вып вниз <=> График  f расположен не ниже касатльной \\
    $\forall x_{0},x f(x) \geq f(x_{0}) +f'(x_{0})(x-x_{0})$ \nl
    
@@ -322,7 +318,7 @@ l опорная прямая множества Е в т. А\\
     $Sigm<a,b> = \lbrace[x,y]:x,y \in <a,b>,x \leq y \rbrace$ \\
     
      \subsection{Определение}
-     1) $f: Sigm<a,b> \rightarrow \overline{{\mathbb{R}}$-функция промежутка \\
+     1) $f: Sigm<a,b> \rightarrow \overline{{\mathbb{R}}}$-функция промежутка \\
      2) Аддитивная фп \\
       $\forall [p,q] \in Sign<a,b> \forall c \in(p,q) \\
      f([p,q])= f([p,c])+f([c,q])$\\
@@ -331,7 +327,7 @@ l опорная прямая множества Е в т. А\\
      g-плотнотсь $\forall \vartriangle \in Sigm <a,b> (inf (g))l(\vartriangle)\leq F\leq(sup (g) )l(\vartriangle) ,l(\vartriangle)$- длина $\vartriangle)$\\
      
      
-     \subsection{Теорема вычислении аддитивной функции по  плотности} \\ 
+     \subsection{Теорема вычислении аддитивной функции по  плотности} 
      Ф - адд ф.п. , f -ее плотность, f-непр <a,b>\\
      Тогда  $\forall [p,q] \Phi([p,q])=\int_{p}^{q} f$ \\
      
@@ -353,13 +349,13 @@ $\frac{F(x+h)}{h} = lim\frac{\Phi[a,x+h]-\Phi[a,x]}{h}= lim \frac{\Phi[x,x+h]}{h
     $\Phi$ - адд ф.пю , f-непр
    	$ \forall \vartriangle \in Sigm<a,b> \exists m_\vartriangle ,M_\vartriangle \\
     (1)
-    m_\vartrianglel(\vartriangle) \leq \Phi(\vartriangle)\leqM_\vartrianglel(\vartriangle)\\
+    m_\vartriangle(\vartriangle) \leq \Phi(\vartriangle)\leq_\vartriangle(\vartriangle)\\
     (2) \forall x \in \vartriangle m_\vartriangle \leq f(x) \leq  M_\vartriangle$\\
     (3) $\forall$ фикс $x \in <a,b>$\\
     $M_\vartriangle-m_\vartriangle \Rightarrow 0$ \\
     те $\forall \epsilon  \exists \delta > 0  \forall \vartriangle \in Sigm<a,b>: x,  \forall \vartriangle, l(\vartriangle) < \delta  ,          |M_\vartriangle - m_\vartriangle|<\epsilon$ \\
      Тогда f-плотность $\Phi$ \\
-    \textbr{Доказательство} \nl
+    \textbf{Доказательство} \nl
  Аналогично предыд теореме \\
     $m_\vartriangle \leq \frac{F(x+h)-F(x)}{h} \leq M_\vartriangle \\
     m_\vartriangle \leq f(x)\leq M_\vartriangle
@@ -374,7 +370,7 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
  
  \subsection{Теорема площади криволинейного сектора}
  \[
-    \boxed{\boxed{ $\sigma(\alpha,\beta)=\frac{1}{2} \int_{\alpha}^{\beta}r^2(\phi) d\phi$ }}\\
+    \boxed{\boxed{ \sigma(\alpha,\beta)=\frac{1}{2} \int_{\alpha}^{\beta}r^2(\phi) d\phi}}\\
 \]
  \textbf{Докзаательство}
     Проверим, что $\frac{1}{2}r^2(\phi)$-плотность $\Phi[\alpha,\beta]$\\
@@ -390,7 +386,7 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
     \boxed{\boxed{ \frac{1}{2} \int_{t_\alpha}^{t_\beta}( y'x-xy' ) dt = \frac{1}{2}\int_{t_0}^{t_1}+\frac{1}{2}\int_{t_1}^{t_2} }} 
     \]
     
-    \\
+   
 \subsection{Кардиоида}
     $x(\phi)= 2 r cos(\phi) - r cos(2\phi)$\\
     $y(\phi)= 2 r sin(\phi) - r sin(2\phi)$\\
@@ -470,7 +466,7 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
  3) Очевидно\\
  \\
  \texbf{Пример.Эллипс}\\
-    $\frac{x^2}{a^2}+\frac{y^2}{b^2}}=1$\\
+    $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$\\
     $x= a cos(t)$  $y=sin(t)$ \\
     $e=\int_{0}^{2\pi}a\sqrt{1-\epsilon^2 sin^2(t)}dt$\\
     $f(x)=\int_{0}^{x}a\sqrt{1-\epsilon^2 sin^2(t)}dt$ - элл. интеграл воторго рода.\\
@@ -562,7 +558,7 @@ a.  т.Кантора: \nl
   \subsection{Теорема 2. Об интегральных суммах для центральныых предков}
   		 $ f \in C^2[a,b] , a = x_0 < x_1 < \dots < x_n = b ,  \beta = max(x_i - x_{i -1})$ \nl
   		 $t_{i} := \frac{x_{i}+x_{i+1}}{2} $ \nl 
- Тогда  $| \int_a^b f(x)dx- \sum_{i=1}^n f(t_i)(x_i - x_{i-1}) | \geq \frac{\beta^2}}{8} \int_a^b |f''(x)|dx $ \nl
+ Тогда  $| \int_a^b f(x)dx- \sum_{i=1}^n f(t_i)(x_i - x_{i-1}) | \geq \frac{\beta^2}{8} \int_a^b |f''(x)|dx $ \nl
  		 $ \int_{x_{i-1}}^{x_i} f dx = \int_{t_i}^{x_i} + \int_{x_{i-1}}^{x_i} = \int_{t_i}^{x_i} f(x-x_i)' dx  + \int_{x_{i-1}}^{t_i} f*(x_{i-1})' dx =$ допишите преобразования плс $ =f(t_i)(x_i- x_{i-1}) + \int_{x_{i-1}}^{x_i}f''(x)\phi(x)dx $\nl
  		
   $\phi(x) := \left\{\begin{array}{l}(x-x_{i-1})^2\\(x-x_i)^2\end{array}\right.$ \nl
@@ -641,7 +637,7 @@ $, Тогда   \overline{lim} (x_nt_n) =\overline{lim}x_n l  \\
  2.         \\
  3. $ sup(\lambda x_n,\lambda x_{n+1},\dots)= \lambda sup(x_n,x_{n+1},\dots)\\
  4. \overline{lim}(-x_n)  \leftarrow sum(-x_n,-x_{n+1}, \dots)= -inf(x_n,x_{n+1},\dots) \rightarrow - \underline(x_n)\\
- 5. sup(x_n + x'_n, x_{n+1}+x'_{x+1},\dots)\leq sup(x_n, x_{n+1},\dots) + sup(x'_n,x'_{n+1},\dots}) $\\
+ 5. sup(x_n + x'_n, x_{n+1}+x'_{x+1},\dots)\leq sup(x_n, x_{n+1},\dots) + sup(x'_n,x'_{n+1},\dots) $\\
 6. $ \forall \epsilon > 0, \exists N_0, \forall k > N_0, \\
  x_k+l-\epsilon < x_k+t_k < x_k + l + \epsilon \\ 
  y_n + l- \epsilon \leq sup(\dots) \leq y_n + l + \epsilon \\ 
@@ -988,7 +984,7 @@ $ 0=\int_0^\pi \int_0^\pi \frac{sin(n+\frac{1}{2}x)}{2sin \frac{x}{2}} dx -\frac
 \section{Ряды}
 \subsection{Простейшие свойства}
 $ S_N := a_1+a_2+a_3+ \dots + a_N = \sum_{n=1}^N a_n  $-частичная сумма \\
-\\Если существует \boxed{ $ lim_{N \rightarrow +\infty} S_N = S \in \overline{\mathbb{R}}$} ,то он  называется \textbf{сумма ряда}}\\
+\\Если существует \boxed{ $ lim_{N \rightarrow +\infty} S_N = S \in \overline{\mathbb{R}}$} ,то он  называется \textbf{сумма ряда}\\
 $ S \in \mathbb{R} $- ряд сходится \\
 $ S = \underline{+}\infty $ или  $ not\exists lim S_N $ -ряд расходится \\
 \\Наблюдение:$ a_n =S_n -S_n{n-1} $\\
