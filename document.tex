@@ -5,12 +5,13 @@
 \usepackage{hyperref} % для вставки ссылок
 \usepackage{graphicx}
 \usepackage[russian]{babel}
-\parindent 0pt
+\parindent 5pt
 \parskip 0pt
+\usepackage{cmap}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{array}
-\usepackage[left=2.3cm, right=3.3cm, top=1.7cm, bottom=1.7cm, bindingoffset=0cm]{geometry}
+\usepackage[left=2.3cm, right=3.3cm, top=1.7cm, bottom=1.7cm, bindingoffset= 0cm]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{float}
@@ -60,14 +61,19 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
 \newpage
 \section{Неопределённый интеграл}
 \lfoot{Автор конспекта: Константин Ништ}
-\subsection{Определение}
+\subsection{Определение 1}
    $ f : <a; b> \rightarrow \mathbb{R} \newline
     \text{Тогда } F : <a; b> \rightarrow \mathbb{R} 
     \text{ называется первообазной (для f на }<a; b>),
     \text{если } \forall x \in <a; b> F'(x) = f(x)
     $
-    
-\subsection{Теорема 1}
+    \subsection{Определение 2}
+    	$ f : <a; b> \rightarrow \mathbb{R} \newline 
+    	\text{Неопределенный интеграл } \int f  
+    	\text{ - множество всех первообразных } F \text{ от } f \newline
+    	\int f = F + c, \text{ где } с \text{ - любая константа}
+        $
+\subsection{Теорема о существовании первообразной}
     $f \text{ непрерывна } \Rightarrow \exists F \newline$
     \text{Потом докажут}
     
@@ -79,7 +85,7 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
     1. Очевидно, что (F+C)' = F' + C' = F' + 0 = F' $\newline$
     2. (G(x)-F(x))' = f(x) - f(x) = 0. Тогда G-F = const.
     
-\subsection{Теорема о свойствах неопределённого интеграла}
+\subsection{Свойства неопределённого интеграла}
     Пусть f и g имеют первообразную на <a; b>, $\alpha , \beta \in \mathbb{R} \newline$
     Тогда : $\newline$
     1. $\int f + g = \int f + \int g \newline$
@@ -148,7 +154,7 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
         Следовательно, мы не могли перескочить через $2 \cdot \epsilon$, то есть наше начальное утверждение неверно. \nl
         Теорема доказана.
         
-\section{Определённый интеграл}
+\section{Определенный интеграл}
     \subsection{Площадь}
         \subsubsection{Определение площади}
         E — совокупность всех окраниченных подмножеств в $\mathbb{R}^2$ \nl
@@ -165,7 +171,7 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
         
         
     \subsection{Определённый интеграл}
-        \subsubsection{Срезки}
+        \subsubsection{Положительная и отрицательная срезки}
         
         $f : <a; b> \rightarrow \mathbb{R} \nl$
         $f^+(x) = max(f(x), 0)$ положительная срезка. \nl
@@ -268,12 +274,12 @@ mfoermflgemgler\insertref{wqwsqdwqdqwd};
  => $g(\xi_{1}) \leq f_{+}'(x_{1})$ при $\xi_1 \rightarrow x_1 - 0$ \\
  => $f_{-}'(x_1)  \leq f_{+}(x_{1})$  \\
  
-\subsection{Следствие} 
+\subsection{Следствие о точках разрыва} 
    f выпукла на <a,b> => f -непрерывен на <a,b> \nl
    $\exists$ кон  $f_{+}'(x)$ => f непр в т. x справа \nl
    $\exists$ кон  $f_{-}'(x)$ => f непр в т. x слева \nl
  
-\subsection{Теорема о выпуклостях в терминах касательных} \\
+\subsection{Описание выпуклости с помощью касательных} \\
    f- дифф на $<a,b>$ \nl
    Тогда f - вып вниз <=> График  f расположен не ниже касатльной \\
    $\forall x_{0},x f(x) \geq f(x_{0}) +f'(x_{0})(x-x_{0})$ \nl
@@ -291,7 +297,7 @@ l опорная прямая множества Е в т. А\\
 Для линии $y=f(x_0)+f_-'(x_0)(x-x_0)$ , при $x<x_0$ график лежит ниже  \\
 Для линии $y=f(x_0)+f_+'(x_0)(x-x_0)$ , при $x<x_0$ график лежит не ниже \\
   $min\lbrace y:(x,y)\in E \lbrace =: f(x_0) $-вып \textbf{здесь че-то не то в этой строчке} \\
-   \subsection{о дифф кр выпуклости}
+   \subsection{Дифференциальный критерий выпуклости}
   (1) f-непр <a,b> , дифф (a,b) \\
   Тогда  f  строго вып$ \Longleftrightarrow $f' (строго )возр. \\
   
@@ -320,12 +326,12 @@ l опорная прямая множества Е в т. А\\
      2) Аддитивная фп \\
       $\forall [p,q] \in Sign<a,b> \forall c \in(p,q) \\
      f([p,q])= f([p,c])+f([c,q])$\\
-     3) Плотность аддититвной фп \\
+     3) Плотность аддитивной функции промежутка \\
      f: Segm<>a,b $\rightarrow \mathbb{R}$\\
      g-плотнотсь $\forall \vartriangle \in Segm <a,b> (inf (g))l(\vartriangle)\leq F\leq(sup (g) )l(\vartriangle) ,l(\vartriangle)$- длина $\vartriangle)$\\
      
      
-     \subsection{Теорема вычислении аддитивной функции по  плотности} \\ 
+     \subsection{Теорема о вычислении аддитивной функции промежутка по плотности} \\ 
      Ф - адд ф.п. , f -ее плотность, f-непр <a,b>\\
      Тогда  $\forall [p,q] \Phi([p,q])=\int_{p}^{q} f$ \\
      
@@ -343,7 +349,7 @@ l опорная прямая множества Е в т. А\\
 
 $\frac{F(x+h)}{h} = lim\frac{\Phi[a,x+h]-\Phi[a,x]}{h}= lim \frac{\Phi[x,x+h]}{h}=lim_{h\rightarrow 0}f(x+\theta h )=f(x)$ \\
 
- \subsection{Теорема обобщение т о плотности} 
+ \subsection{Обобщенная теорема о плотности} 
     $\Phi$ - адд ф.пю , f-непр
    	$ \forall \vartriangle \in Segm<a,b> \exists m_\vartriangle ,M_\vartriangle \\
     (1)
@@ -360,7 +366,7 @@ $\frac{F(x+h)}{h} = lim\frac{\Phi[a,x+h]-\Phi[a,x]}{h}= lim \frac{\Phi[x,x+h]}{h
     |\frac{F(x+h)-F(x)}{h}-f(x)|\leq |M_\vartriangle-m_\vartriangle| = h (\vartriangle =[x,x+h]) \\
     F_+'(x)=f(x) , F_-'(x)=f(x)$ \\
     
-\subsection{Площадь криволиненейного сектора в  полярных координтах}
+\subsection{Площадь криволинейного сектора в  полярных координтах}
 $r > 0, \phi \in [0,1]$ \\
 $f(\phi) : [0,2\pi] \rightarrow \mathbb{R}$\\
 $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\\
@@ -391,7 +397,7 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
     $S = \frac{1}{2}\int_{0}^{2\pi}(2cos(\phi)-2cos( 2\phi )( 2cos( \phi )-cos( 2\phi )) + (2sin\phi -2 sin(2\phi))(2sin\phi - sin(2\phi)d\phi) = \frac{r^2}{2}\int_{0}^{2\pi}4 -6( cos(2\phi)cos(\phi) + sin(2\phi)sin(\phi)) +2 d\phi = \frac{r^2}{2}6\pi * 2 - 3r^2\int_{0}^{2\pi}cos\phi d\phi = \[ \boxed{\boxed{6\pi r^2 $}}\\
      \]
     \\
-\textbf{Пример.Изометрическое пространство}\\
+\textbf{Изопериметрическое неравенство}\\
       $G \in \mathbb{R}^2$ -замкнутая выпуклая фигура
      $diam G\leq 1$\\ Тогда $\Segma(G) \leq \frac{\pi}{4}$\\
  \textbf{Докзаательство}\\
@@ -427,7 +433,7 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
         Если $\exists _{biekcia} T:  C_\gamma \rightarrow C_gamma_2$ -сжатие , то тогда l($\gamma_2)\leq$ l($\gamma$)\\
         
  4.  Нормировка : для линейного пути $\gamma   \\ l(\gamma)=||\gamma(a)-\gamma(b)||$  \\
- \subsection{Теорема}
+ \subsection{Вычисление длины гладкого пути}
     $\gamma : [a,b] \rightarrow \mathbb{R}^m, C^1$\\
     Тогда $l(\gamma)=int_{a}^{b}||\gamma'(t)|| dt $\\
  \texbf{Доказательство}\\
@@ -468,10 +474,10 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
     $x= a cos(t)$  $y=sin(t)$ \\
     $e=\int_{0}^{2\pi}a\sqrt{1-\epsilon^2 sin^2(t)}dt$\\
     $f(x)=\int_{0}^{x}a\sqrt{1-\epsilon^2 sin^2(t)}dt$ - элл. интеграл воторго рода.\\
-    \texbf{Пример.В полярных координатах} \nl
+    \texbf{ПримПлотность аддитивной функции промежуткаер.В полярных координатах} \nl
     $x=rcos\phi$  $y=rsin\phi$\\
     Параметризуем (дописать)
- \subsection{Лемма}
+ \subsection{Лемма об общем виде функции ограниченной вариации}
     $Var_{a}^{b} f < +\infty$\\
     Тогда f можно представить в  $f(x)=p(x)=q(x)$, где  p,q=возраст.\\
  \texbf{Доказательство}\nl
@@ -485,7 +491,7 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
    \cfoot{}
    \rfoot{5 марта 2018}
 
-\section{Объем фигуры вращения} 
+\section{Объем фигур вращения} 
 $f\geq 0 $\nl
 $Segm[a,b] \rightarrow \mathbb{R}$ \nl
 $ [p, q]\rightarrow$ объем  фигуры,  полученный вращением ПГ$ [f,[p,q]] $ вокруг оси ox \nl
@@ -517,10 +523,10 @@ $ max(x_i - x_{i - 1}, i = 1,2, \dots n)$ - ранг дробления \nl
 \textbf{Оснащения дробления } - набор точек $ \xi_1, \xi_2 \ dots \xi_n $ \nl
 $ \forall i x_{i - 1 } \leq \xi_i \leq x_i$ \nl
 $ f: [a,b] \mapsto \mathbb{R}, $ задано дробление оси \nl
-$ \sum_{i=1}^n f(\xi_i)(x_i -x_{i -1})$- интегральная сумма(=Римонова сумма) \nl
+$ \sum_{i=1}^n f(\xi_i)(x_i -x_{i -1})$- интегральная сумма(= Риманова сумма ) \nl
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR68FITJzmGmf5-FRtUnW83M13aXbeJxOiFXptYWvY7HibhX6OP8A \nl
 
-\subsection{Теорема об инт. как предела интегральной суммы}
+\subsection{Интеграл как предел интегральных сумм}
 $ f \in C[a,b] $\nl
 Тогда$\forall \epsilon > 0 , \exists \beta>0, \forall$ дробления $ x_0 = a< x_1 < \dots < x_n =b $ со свойством $max(x_i -x_{i-1})< \beta$ \nl
 $| \int_a^b f(x) dx  - \sum_{i=1}^n f(x_i)(x_i -x_{i-1})|<\epsilon$ \nl
@@ -553,7 +559,7 @@ a.  т.Кантора: \nl
 Другие - равномерные $ \frac{b -a }{n} $ - для каждой части \nl
        $ |\int_a^b-\sum| \leq \frac{((b-a)^2M)}{n} $\nl
        
-  \subsection{Теорема 2. Об интегральных суммах для центральныых предков}
+  \subsection{еорема об интегральных суммах для центральных прямоугольников}
   		 $ f \in C^2[a,b] , a = x_0 < x_1 < \dots < x_n = b ,  \beta = max(x_i - x_{i -1})$ \nl
   		 $t_{i} := \frac{x_{i}+x_{i+1}}{2} $ \nl 
  Тогда  $| \int_a^b f(x)dx- \sum_{i=1}^n f(t_i)(x_i - x_{i-1}) | \geq \frac{\beta^2}}{8} \int_a^b |f''(x)|dx $ \nl
@@ -563,7 +569,7 @@ a.  т.Кантора: \nl
    $||max(\phi) =\frac{\beta^2}{4}||$ \nl
  	    $\int_a^b f(x) dx = \sum_{i=1}^n f(t_i){x_i -x_{i-1}} + \int_a^b f''(x)\phi(x) dx  $ \nl
  $ |\int_a^b f(x)dx - \sum_{i+1}^n| = |\int_a^b f''(x)\phi(x) dx | \leq \int_a^b| f''(x) |\phi(x)  \leq \frac{beta^2}{8} \int_a^b|f''{x}|dx $ \nl
-\subsection{Теорема о форме трапеций}
+\subsection{Теорема о формуле трапеций}
 	  	$ f \in C^2[a,b] a=x_0 \leq x_0 < \dots < x_n =b $ \nl
   		$\beta := max(x_i - x_{i-1}) $ \nl
   		$ |\int_a^b f - \sum \frac{f(x_i)+ f(x_{i -1})}{2}(x_i- x_{i-1}) |\leq \frac{\beta^2}{8}\int_a^b|f''(x)| $ \nl 	
@@ -571,7 +577,7 @@ a.  т.Кантора: \nl
  		$ \psi(x)= (x-x_{i-1})(x_i - x) $\nl
   		$ \int_{x_{i-1}}^{x_i} f(x)(x-t_i)'dx = f(x)(x-t_i)|_{x_{i-1}}^{x=x_i}  - \int_{x_{i-1}}^x_i f'(x)(x-t_i)dx= \frac{f(x_i)+f(x_{i-1}i)}{2}(x_i - x_{i-1}) + (\frac{1}{2} f'(x)\psi(x)|_{x=x_{i-1}}^{x=x_i} - \frac{1}{2} \int_{x_{i-1}}^{x^i} f''(x)\psi(x)dx)$ \nl Допишите плс 2 строчки \nl
   
-\subsection{Эйлера - Маклорена}
+\subsection{формула Эйлера-Маклорена}
  	$ f \in C^2 [m,n], m,n \in \mathbb{R} $\nl
 c 	Тогда $\int_m^n f(x)dx = \sum_{i=m}^{n}^* f(i) - \frac{1}{2} \int_m^n f''(x) \{x\} (1 -\{x\}) dx$ \nl
  	\textbf{Ну ёё понятно} \nl
@@ -616,7 +622,7 @@ z_n:= inf(x_n,x_{n+1},\dots) $\\
 $z_1 \geq z_2 \geq \dots \geq z_n \geq x_n \geq y_n \geq y_{n+1} \geq \dots \geq \y_1$ \\
 $ z_n\uparrow, \exists \underline{lim} z_n = lim_{n\rightarrow+\infty} , x_n \in \overline{\mathbb{R}} \\$
 $ y_n\downarrow, \exists \overline{lim} y_n = lim_{n\rightarrow+\infty} , x_n \in \overline{\mathbb{R}} \\$
-\subsection{Теорема о свойствах верхнего и нижнего предела}
+\subsection{Свойства верхнего и нижнего пределов}
 1.$ \underline{lim} x_n \leq \overline{lim}x_n \\
 2. \forall n, x_n \geq x'_n,$ Тогда $\underline{lim} x_n \geq x'_n, \overline{lim}x_n \geq \overline{lim}x'_n \\
 3. \lambda \geq 0, \overline{lim}\lambda x_n = \lambda\overline{lim} x_n \\
@@ -659,7 +665,7 @@ $
 x_n \leq l+ \epsilon, x_{n+1} \leq l - \epsilon \\ 
 \Rightarrow y_n \leq l - \epsilon \rightarrow lim y_n < l - \epsilon \\
 \Longleftarrow\Longleftarrow\\ \forall \epsilon > 0, \epsilon \dots \textbf{Надо дописать}$ 
-\subsection{Теорема}
+\subsection{Теорема о существовании предела в терминах верхнего и нижнего пределов}
  $ \exists lim x_n \in \overline{\mathbb{R}} \Longleftrightarrow \overline{lim} x_n = \underline{lim}x_n $\\
  (значение прю в левой и правой части этой  эквивалентности одинаковы) \\
  \textbf{Доказательство}\\
@@ -670,7 +676,7 @@ $ \Longrightarrow\Longrightarrow \\
  2. l = -\infty$ Аналогично \\
  3. $ l \in \mathbb{R}, \overline{lim} x_n = l, $так как $ \forall \epsilon > 0, \exists N \forall n > N : l - \epsilon < x_n < l + \epsilon $ - п.ч. утверждение а. Это больше, чем требуется в  б.
  
- \subsection{Теорема.(о характеризации $ \overline{lim} $ как частичного)}
+ \subsection{Теорема о характеризации верхнего предела как частичного}
  1.$ \forall l \in \mathbb{R} $ - частичный предел,  $ \underline{lim} x_n \leq l \leq \overline{lim} x_n \\
  2. \exists n_k : lim_{k \rightarrow +\infty} x_{n_k}=\overline{lim} x_n\\
    \exists m_k : lim_{k \rightarrow +\infty} x_{m_k}=\underline{lim} x_n \\$
@@ -688,7 +694,7 @@ $ \Longrightarrow\Longrightarrow \\
      \dots \\
      k,  \exists n_k > n_{k-1}, 1- \frac{1}{k} < sin n_k < 1 $
      \section{Несколько неклассических неравенств}
-     \subsection{Неравенсвто Йенсена}
+     \subsection{Неравенство Йенсена для сумм}
      $ f $ выпукла на $ <a,b> \\
      \forall x_1,v_2, \dots x_n  \in <a,b> \\
      \forall \alpha_1, \dots \alpha_n : $ все $ \alpha_i \geq 0, \sum \alpha_i =1 \\
@@ -706,7 +712,7 @@ $ \Longrightarrow\Longrightarrow \\
      \textbf{Пример} \\
     $ \forall a_1 \dots a_n > 0 \\
      \frac{a_1 + \dots + a_n}{n} \geq^n\sqrt{a_1 \dots a_n} \\ $
-     \subsection{Неравенство психоделическое}
+     \subsection{Неравенство Йенсена для интегралов}
      1. \textbf{Неравенство Йенсена}, f -вып $ <A,B> \\
      \phi  : \[a,b\]\rightarrow <A,B> $ непрерывна \\
     $ \alpha :  [a,b]\rightarrow [0, +\infty )$ непрерывна, $  \int_a^b d(x) dx = 1 \\$
@@ -743,7 +749,7 @@ $ \Longrightarrow\Longrightarrow \\
      \sum_{i=1}^{n-1} |a_i b_i| \leq(\sum_{i=1}^{n-1}|a_i|^p)^{\frac{1}{p}} (\sum_{n=1}^n |b_j|^q)\\
      (|a_i|^p) || (b_i)^p\\
      \forall i, sign(a_i)=sign(b_i) \\$
-     \subsection{Интегральное Неравенсвто Гельдера}
+     \subsection{Неравенство Гельдера для интегралов}
      $ p > 1 , \frac{1}{p} + \frac{1}{q}=1, f,g \in C[a,b]\\ $
      Тогда $ |\int_a^b f(x)g(x) dx| \leq (\int_a^b |f(x)^p dx|)^{\frac{1}{p}} (\int_a^b |g(x)|^q dx)^{\frac{1}{q}} \\$
      //
@@ -793,7 +799,7 @@ $ \Longrightarrow\Longrightarrow \\
    $ \exists lim x_n \in \mathbb{R} \leftrightarrow \forall \epsilon >0, \exists N, \forall n, k>N, |x_n-x_k|<\epsilon \\
    \exists $кон. $ lim_{x \rightarrow b - 0} f(x) \in \mathbb{R} \\
    \forall\epsilon > 0, \exists \beta > 0, \forall x_1, x_2 \in (b - \beta, b) |f(x) -f(x_2|) < \epsilon \\ $
-   \section{Свойства. }
+   \section{Простейшие свойства несобственного интеграла}
    \subsection{Критерий Больцано-Коши}
    Сходимость интеграла $ \leftrightarrow\exists $кон. $lim_{A\rightarrow b-0} \phi(A) \leftrightarrow \\
    \forall \epsilon > 0 \exists  \triangle \in [a,b), \forall A,B \in (\triangle , b), |\int_A^B  f(x)| <\epsilon \\$
@@ -834,7 +840,7 @@ $ \Longrightarrow\Longrightarrow \\
        \alpha \rightarrow  \beta -0 \\$
        
        Здесь место для наблюдения  \\
-      \section{Привзнаки сходимости}
+      \section{Признаки сравнения сходимости несобственного интеграла}
       \subsection{1-ый признак}
       f - доп. $ [a,b), f\geq 0, \Phi(A) =\int_a^A f\\
       \int_a^b f -cx \Leftrightarrow \Phi $- огр функция\\
@@ -925,7 +931,7 @@ $ \Longrightarrow\Longrightarrow \\
 	 1. Он сходится \\
 	 2. $ \int_a^b |f| $ сходится\\
 	 
-	 \subsection{Теорема}
+	 \subsection{Теорема об абсолютно сходящихся интегралах и рядах.}
 	 f - доп на$ <a,b>\\$
 	 Экв 1. $\int_a^b f $абс сходится\\
 	 2.$ \int_a^b |f| -$сходится\\
