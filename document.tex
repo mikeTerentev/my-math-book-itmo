@@ -313,16 +313,16 @@ l опорная прямая множества Е в т. А\\
     
     \subsection{Общая схема}
     
-    $Sigm<a,b> = \lbrace[x,y]:x,y \in <a,b>,x \leq y \rbrace$ \\
+    $Segm<a,b> = \lbrace[x,y]:x,y \in <a,b>,x \leq y \rbrace$ \\
     
      \subsection{Определение}
-     1) $f: Sigm<a,b> \rightarrow \overline{{\mathbb{R}}$-функция промежутка \\
+     1) $f: Segm<a,b> \rightarrow \overline{{\mathbb{R}}$-функция промежутка \\
      2) Аддитивная фп \\
       $\forall [p,q] \in Sign<a,b> \forall c \in(p,q) \\
      f([p,q])= f([p,c])+f([c,q])$\\
      3) Плотность аддититвной фп \\
-     f: Sigm<>a,b $\rightarrow \mathbb{R}$\\
-     g-плотнотсь $\forall \vartriangle \in Sigm <a,b> (inf (g))l(\vartriangle)\leq F\leq(sup (g) )l(\vartriangle) ,l(\vartriangle)$- длина $\vartriangle)$\\
+     f: Segm<>a,b $\rightarrow \mathbb{R}$\\
+     g-плотнотсь $\forall \vartriangle \in Segm <a,b> (inf (g))l(\vartriangle)\leq F\leq(sup (g) )l(\vartriangle) ,l(\vartriangle)$- длина $\vartriangle)$\\
      
      
      \subsection{Теорема вычислении аддитивной функции по  плотности} \\ 
@@ -345,13 +345,13 @@ $\frac{F(x+h)}{h} = lim\frac{\Phi[a,x+h]-\Phi[a,x]}{h}= lim \frac{\Phi[x,x+h]}{h
 
  \subsection{Теорема обобщение т о плотности} 
     $\Phi$ - адд ф.пю , f-непр
-   	$ \forall \vartriangle \in Sigm<a,b> \exists m_\vartriangle ,M_\vartriangle \\
+   	$ \forall \vartriangle \in Segm<a,b> \exists m_\vartriangle ,M_\vartriangle \\
     (1)
     m_\vartrianglel(\vartriangle) \leq \Phi(\vartriangle)\leqM_\vartrianglel(\vartriangle)\\
     (2) \forall x \in \vartriangle m_\vartriangle \leq f(x) \leq  M_\vartriangle$\\
     (3) $\forall$ фикс $x \in <a,b>$\\
     $M_\vartriangle-m_\vartriangle \Rightarrow 0$ \\
-    те $\forall \epsilon  \exists \delta > 0  \forall \vartriangle \in Sigm<a,b>: x,  \forall \vartriangle, l(\vartriangle) < \delta  ,          |M_\vartriangle - m_\vartriangle|<\epsilon$ \\
+    те $\forall \epsilon  \exists \delta > 0  \forall \vartriangle \in Segm<a,b>: x,  \forall \vartriangle, l(\vartriangle) < \delta  ,          |M_\vartriangle - m_\vartriangle|<\epsilon$ \\
      Тогда f-плотность $\Phi$ \\
     \textbr{Доказательство} \nl
  Аналогично предыд теореме \\
@@ -364,11 +364,11 @@ $\frac{F(x+h)}{h} = lim\frac{\Phi[a,x+h]-\Phi[a,x]}{h}= lim \frac{\Phi[x,x+h]}{h
 $r > 0, \phi \in [0,1]$ \\
 $f(\phi) : [0,2\pi] \rightarrow \mathbb{R}$\\
 $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\\
- $\Phi :[\alpha,\beta]\rightarrow \sigma(S_{\alpha, \beta})$ \\
+ $\Phi :[\alpha,\beta]\rightarrow \Segma(S_{\alpha, \beta})$ \\
  
  \subsection{Теорема площади криволинейного сектора}
  \[
-    \boxed{\boxed{ $\sigma(\alpha,\beta)=\frac{1}{2} \int_{\alpha}^{\beta}r^2(\phi) d\phi$ }}\\
+    \boxed{\boxed{ $\Segma(\alpha,\beta)=\frac{1}{2} \int_{\alpha}^{\beta}r^2(\phi) d\phi$ }}\\
 \]
  \textbf{Докзаательство}
     Проверим, что $\frac{1}{2}r^2(\phi)$-плотность $\Phi[\alpha,\beta]$\\
@@ -376,7 +376,7 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
     (min $\frac{1}{2}r^2(\phi))(\beta - \alpha) \leq  \Phi([\alpha,\beta])\leq max(\frac{1}{2}r^2(\phi)( \beta -    \alpha)$\\
      Sect[$ \alpha,\beta ], min(r( \phi )) \subset S_{ \alpha,\beta } \subset Sect([ \alpha,\beta ], max(r( \phi )))$\\
    \\
-    $\sigma(\alpha,\beta)=\frac{1}{2} \int_{\alpha}^{\beta}r^2(\phi) d\phi = \frac{1}{2}\int_{t_\alpha}^{t_\beta}(x^2+y^2)\frac{\frac{y'x-x'y}{x^2}}{1+\frac{y^2}{x^2}}dt =$ \\
+    $\Segma(\alpha,\beta)=\frac{1}{2} \int_{\alpha}^{\beta}r^2(\phi) d\phi = \frac{1}{2}\int_{t_\alpha}^{t_\beta}(x^2+y^2)\frac{\frac{y'x-x'y}{x^2}}{1+\frac{y^2}{x^2}}dt =$ \\
     $=\frac{1}{2}\int_{t_\alpha}^{t_\beta}y'(t)x(t)-x'(t)y(t) dt$ \\
    \\
      Площадь петли\\
@@ -393,10 +393,10 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
     \\
 \textbf{Пример.Изометрическое пространство}\\
       $G \in \mathbb{R}^2$ -замкнутая выпуклая фигура
-     $diam G\leq 1$\\ Тогда $\sigma(G) \leq \frac{\pi}{4}$\\
+     $diam G\leq 1$\\ Тогда $\Segma(G) \leq \frac{\pi}{4}$\\
  \textbf{Докзаательство}\\
     $\forall \phi , sup(r : (r, \phi) \in G )= f(\phi)$ \\
-    $\sigma(G)=\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}f^2(\phi) d\phi = \frac{1}{2}\int_{0}^{\frac{\pi}{2}}f^2(\phi)+\int_{-\frac{\pi}{2}}^{0}f^2(\phi)=\frac{1}{2}\int_{0}^{\frac{\pi}{2}}f^2(\phi) + f^2(\phi-\frac{\pi}{2})   d\phi$ \\
+    $\Segma(G)=\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}f^2(\phi) d\phi = \frac{1}{2}\int_{0}^{\frac{\pi}{2}}f^2(\phi)+\int_{-\frac{\pi}{2}}^{0}f^2(\phi)=\frac{1}{2}\int_{0}^{\frac{\pi}{2}}f^2(\phi) + f^2(\phi-\frac{\pi}{2})   d\phi$ \\
 \\
     $\gamma : [a,b] \rightarrow \mathbb{R}^m$ -непрерывна\\
     $\gamma(a)$ - начало \\
@@ -433,7 +433,7 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
  \texbf{Доказательство}\\
     Доп считать $\gamma' != 0 $\\
     $\gamma$-инъективная\\
-    $\Phi: Sigm[a,b] \rightarrow \mathbb{R}$ по совйству $\leq$) из    определения\\
+    $\Phi: Segm[a,b] \rightarrow \mathbb{R}$ по совйству $\leq$) из    определения\\
      $?||\gamma'||$ -плотность $\Phi$\\
      ------------\\
   \begin{enumerate}
