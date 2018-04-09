@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  9 APR 2018 02:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  9 APR 2018 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,9 +759,6 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/cmap/cmap.sty
-Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -1226,36 +1223,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count151
 )
-
-! LaTeX Error: Option clash for package color.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \usepackage
-                {titlesec}
-The package color has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [usenames,dvipsnames]
-Adding the global options:
-  ,usenames,dvipsnames
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box68
-\beforetitleunit=\skip64
-\aftertitleunit=\skip65
-\ttl@plus=\dimen194
-\ttl@minus=\dimen195
-\ttl@toksa=\toks42
-\titlewidth=\dimen196
-\titlewidthlast=\dimen197
-\titlewidthfirst=\dimen198
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count152
@@ -1263,55 +1230,36 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 (/usr/local/texlive/2017/texmf-dist/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
 \xargs@max=\count153
-\xargs@toksa=\toks43
-\xargs@toksb=\toks44
-)
-
-! LaTeX Error: Option clash for package xcolor.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \title
-           {РњР°С‚РµРјР°С‚РёС‡РµСЃРєРёР№ Р°РЅР°Р»РёР·.}
-The package xcolor has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [pdftex,dvipsnames]
-Adding the global options:
-  ,pdftex,dvipsnames
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(./document.aux
+\xargs@toksa=\toks42
+\xargs@toksb=\toks43
+) (./document.aux
 LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>>)
+))
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-\AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+\AtBeginShipoutBox=\box68
+Package hyperref Info: Link coloring OFF on input line 50.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1321,9 +1269,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
@@ -1333,16 +1281,16 @@ LaTeX Info: Redefining \nameref on input line 55.
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count155
-\scratchdimen=\dimen199
-\scratchbox=\box70
+\scratchdimen=\dimen194
+\scratchbox=\box69
 \nofMPsegments=\count156
 \nofMParguments=\count157
-\everyMPshowfont=\toks45
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count158
-\MPscratchDim=\dimen256
+\MPscratchDim=\dimen195
 \MPnumerator=\count159
 \makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks46
+\everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1398,48 +1346,48 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 51.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 58.
+ine 53.
 
-Overfull \hbox (1.9968pt too wide) in paragraph at lines 58--58
+Overfull \hbox (1.9968pt too wide) in paragraph at lines 53--53
 [][][][]\T2A/cmr/m/n/12 Make 
  []
 
 
-Overfull \hbox (1.9968pt too wide) in paragraph at lines 58--58
+Overfull \hbox (1.9968pt too wide) in paragraph at lines 53--53
 [][][][]\T2A/cmr/m/n/12 Make 
  []
 
 
-Overfull \hbox (1.9968pt too wide) in paragraph at lines 58--58
+Overfull \hbox (1.9968pt too wide) in paragraph at lines 53--53
 [][][][]\T2A/cmr/m/n/12 Make 
  []
 
 
-Overfull \hbox (1.9968pt too wide) in paragraph at lines 58--58
+Overfull \hbox (1.9968pt too wide) in paragraph at lines 53--53
 [][][][]\T2A/cmr/m/n/12 Make 
  []
 
 
-Overfull \hbox (57.2124pt too wide) in paragraph at lines 59--59
+Overfull \hbox (57.2124pt too wide) in paragraph at lines 54--54
 [][][][]\T2A/cmr/m/n/12 wqwsqdwqdqwd  
  []
 
 
-Overfull \hbox (57.2124pt too wide) in paragraph at lines 59--59
+Overfull \hbox (57.2124pt too wide) in paragraph at lines 54--54
 [][][][]\T2A/cmr/m/n/12 wqwsqdwqdqwd  
  []
 
 
-Overfull \hbox (57.2124pt too wide) in paragraph at lines 59--59
+Overfull \hbox (57.2124pt too wide) in paragraph at lines 54--54
 [][][][]\T2A/cmr/m/n/12 wqwsqdwqdqwd  
  []
 
 
-Overfull \hbox (57.2124pt too wide) in paragraph at lines 59--59
+Overfull \hbox (57.2124pt too wide) in paragraph at lines 54--54
 [][][][]\T2A/cmr/m/n/12 wqwsqdwqdqwd  
  []
 
@@ -1453,73 +1401,68 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 56.
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 64.
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+(babel)             in language  on input line 59.
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 66.
 
 
-LaTeX Warning: Command \cyrs invalid in math mode on input line 74.
+LaTeX Warning: Command \cyrs invalid in math mode on input line 70.
 
 Missing character: There is no с in font cmr12!
 Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 72.
+Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 76.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 76.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 105.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 106.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 102.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 114.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 114.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1527,40 +1470,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 108.
 [2]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 110.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 124.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 129.
+(hyperref)                than one, level fixed on input line 125.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 129.
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 130
+(babel)             in language  on input line 125.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 126
 .
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 131.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1568,77 +1515,47 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 152.
 [3]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 153.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 153.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 173.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 174.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 174.
+(babel)             in language  on input line 170.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 180.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 180.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 189.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 189.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 190.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 190.
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 193.
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 196.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 196.
+(babel)             in language  on input line 176.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1646,106 +1563,62 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 180.
 [4]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 226.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 234.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 234.
+(babel)             in language  on input line 186.
 
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.237 ...y]=\lbrace x+t(y-x), t \in [0,1] \rbrace$
-                                                   \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 189.
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 192.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 243.
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--248
-
- []
-
-
-Overfull \hbox (25.61403pt too wide) in paragraph at lines 258--258
-|[]\T2A/cmr/bx/n/14.4 Теорема об од-но-сто-рон-ней диф-фе-рен-ци-ру-е-мо-сти вы
-п функ-
- []
-
+(babel)             in language  on input line 192.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 258.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.270 ...x_1} =g(\xi) \rightarrow $ (РІРѕР·СЂ  \xi
-                                                  $-> x_{2}) f_{-}'(x_{2}) ,...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 198.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 211.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 222.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 222.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 230.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 230.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.270 ...g(\xi) \rightarrow $ (РІРѕР·СЂ  \xi$-> x_
-                                                  {2}) f_{-}'(x_{2}) , x=x_{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 ...\xi=x_2 ; g(\xi) ->(\xi -> x_1 + 0) f_-\(
-                                                  x_1)$ \nl
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--272
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
  []
 
@@ -1756,93 +1629,151 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 234.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 273--276
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 235.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 235.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
 
  []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 239.
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
+
+ []
+
+
+Overfull \hbox (25.61403pt too wide) in paragraph at lines 254--254
+[]\T2A/cmr/bx/n/14.4 Теорема об од-но-сто-рон-ней диф-фе-рен-ци-ру-е-мо-сти вып
+ функ-
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 254.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 254.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 273.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 273.
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--277
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 277.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 277.
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--281
-
- []
-
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 282.
+(babel)             in language  on input line 277.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 282.
+(babel)             in language  on input line 277.
+[6]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 278.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 278.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283    f
-          - РґРёС„С„ РЅР° $<a,b>$ \nl
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
 
  []
 
 
-Overfull \hbox (33.35786pt too wide) in paragraph at lines 287--293
+Overfull \hbox (33.35786pt too wide) in paragraph at lines 283--289
 [] \OML/cmm/m/it/12 < f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )
  \OML/cmm/m/it/12 < []$ [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
+Underfull \hbox (badness 10000) in paragraph at lines 283--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--300
+Underfull \hbox (badness 10000) in paragraph at lines 291--296
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 300.
+(babel)             in language  on input line 296.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 300.
+(babel)             in language  on input line 296.
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 
  []
 
 
-LaTeX Warning: Command \cyrv invalid in math mode on input line 310.
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+ []
 
 
-LaTeX Warning: Command \cyrery invalid in math mode on input line 310.
+LaTeX Warning: Command \cyrv invalid in math mode on input line 306.
 
 
-LaTeX Warning: Command \cyrp invalid in math mode on input line 310.
+LaTeX Warning: Command \cyrery invalid in math mode on input line 306.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 306.
 
 Missing character: There is no в in font cmr12!
 Missing character: There is no ы in font cmr12!
 Missing character: There is no п in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--311
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 308.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 308.
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 316.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 316.
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
@@ -1853,382 +1784,100 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 320.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 311.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 311.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 311.
-[6]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 312.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 312.
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--317
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 318.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 318.
+(babel)             in language  on input line 320.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 320.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 320.
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 324.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 324.
-! Missing } inserted.
-<inserted text> 
-                }
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--473
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-! Undefined control sequence.
-<argument> ...\vartriangle \\ (1) m_\vartrianglel 
-                                                  (\vartriangle ) \leq \Phi ...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...le ) \leq \Phi (\vartriangle )\leqM 
-                                                  _\vartrianglel (\vartriang...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...(\vartriangle )\leqM _\vartrianglel 
-                                                  (\vartriangle )\\ (2) \for...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \textbr 
-                        
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
 [7]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 320.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 320.
 
-! Undefined control sequence.
-<argument> ...:[\alpha ,\beta ]\rightarrow \Segma 
-                                                  (S_{\alpha , \beta })$ \\ ...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 321--328
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 330.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-! Undefined control sequence.
-<argument> \m@th $\displaystyle  $\Segma 
-                                         (\alpha ,\beta )=\frac {1}{2} \int ...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(babel)             in language  on input line 330.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Undefined control sequence.
-<recently read> \Segma 
-                       
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 334--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 348.
 
-! LaTeX Error: Bad math environment delimiter.
+Underfull \hbox (badness 10000) in paragraph at lines 349--364
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 365.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 365.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 366--370
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+ []
 
 
-! LaTeX Error: \begin{document} ended by \end{equation*}.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 370.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 370.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 370.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 370.
+[8]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 371.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 371.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Underfull \hbox (badness 10000) in paragraph at lines 374--385
 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Things are pretty mixed up, but I think the worst is over.
-
-! Undefined control sequence.
-<recently read> \Segma 
-                       
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \Segma 
-                       
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ []
 
 
-Overfull \hbox (16.51854pt too wide) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 374--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--385
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 390.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 390.
+
+Overfull \hbox (16.51854pt too wide) in paragraph at lines 391--414
 \OML/cmm/m/it/12 S \OT1/cmr/m/n/12 = [] [][](2\OML/cmm/m/it/12 cos\OT1/cmr/m/n/
 12 (\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 
 2\OML/cmm/m/it/12 cos\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 )(2\
@@ -2242,41 +1891,21 @@ cmr/m/n/12 )) + (2\OML/cmm/m/it/12 sin^^^ \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 391--414
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 391--414
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 415.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 415.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Double subscript.
-<argument> ...bigcap _{i=0}^{+\infty }A_\epsilon _
-                                                  i$ \nl \par \subsection {Р...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
@@ -2287,238 +1916,69 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 419.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 419.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 419.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-[8]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-<recently read> \texbf 
-                       
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-! Double subscript.
-<argument> ...Р° РїСѓС‚Рё\\ $c_\gamma , c_\gamma _
-                                                  2$ - РёС… РЅРѕСЃРёС‚РµР»Рё...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-! Undefined control sequence.
-<recently read> \texbf 
-                       
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-! Undefined control sequence.
-<argument> ...a,b] \gamma (t)=(\gamma _1(t),\gots 
-                                                  ,\gamma _m(t))$\\ $m_i(\va...
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 473.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 473.
+(babel)             in language  on input line 419.
 [9]
-! Undefined control sequence.
-<recently read> \texbf 
-                       
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra }, or forgotten $.
-\overline  #1->\@@overline {#1}
-                               
-l.473     $\frac{x^2}{a^2}+\frac{y^2}{b^2}}
-                                           =1$\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Undefined control sequence.
-<recently read> \texbf 
-                       
-l.477     \texbf
-                {РџСЂРёРјРџР»РѕС‚РЅРѕСЃС‚СЊ Р°РґРґРёС‚РёРІРЅРѕР№ С„СѓРЅРєС†Р...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--480
-
- []
-
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 480.
+(babel)             in language  on input line 419.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 480.
-! Undefined control sequence.
-<recently read> \texbf 
-                       
-l.483  \texbf
-             {Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ}\nl
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(babel)             in language  on input line 419.
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 494.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 494.
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--500
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 500.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 500.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 503.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 503.
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 507.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 507.
-
-Underfull \hbox (badness 10000) in paragraph at lines 508--513
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--518
+Underfull \hbox (badness 10000) in paragraph at lines 423--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 432.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 432.
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--463
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--476
 
  []
 
@@ -2529,142 +1989,104 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 518.
+(babel)             in language  on input line 476.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 518.
+(babel)             in language  on input line 476.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 518.
+(babel)             in language  on input line 476.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 518.
+(babel)             in language  on input line 476.
 [10]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 519.
+(babel)             in language  on input line 476.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 519.
+(babel)             in language  on input line 476.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 490.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 490.
 
-Overfull \hbox (236.26399pt too wide) in paragraph at lines 520--528
+Underfull \hbox (badness 10000) in paragraph at lines 491--496
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 496.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 496.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 499.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 499.
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 503.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 503.
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--509
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 509.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 509.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 509.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 509.
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 510--514
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 515.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 515.
+
+Overfull \hbox (236.26399pt too wide) in paragraph at lines 516--524
 \T2A/cmr/m/n/12 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR68FITJzm
 Gmf5-FRtUnW83M13aXbeJxOiFXptYWvY7HibhX6OP8A 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--528
+Underfull \hbox (badness 10000) in paragraph at lines 516--524
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 529.
+(babel)             in language  on input line 525.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 529.
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.534 ...n [a,b] | x' -x''| < \beta, |f(x' -f( x_'
-                                                  ')|<\frac{\epsilon}{b - a}...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+(babel)             in language  on input line 525.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.534 ... |f(x' -f( x_'')|<\frac{\epsilon}{b - a}$
-                                                   РµСЃР»Рё С‡Рµ '  СЌС‚Рѕ Р...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Double subscript.
-l.535 ...1}^n | = | \sum_{i=1}^n \int_{x_{i-1}}^x_
-                                                  i f - \sum_{i=1}^n f(x_i)-...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.535 ..._{i-1}| = |\sum_{i=1}^n(\int_{x_{i-1}}^x_
-                                                  i f(x)dx - f(x_i)(x_i - x_...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.536  = |\sum_{i=1}^n \int_{x_{i-1}}^x_
-                                        i (f(x)-f(x_i))dx|\leq \sum |\int_{x...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Undefined control sequence.
-l.540 $|\int_a^b f(x)dx - \sumf
-                               (\psi_i)(x_i - x_{i-1}) | < \epsilon$ \nl
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.543 $x' -x'' \geq \beta, x_'
-                              ,x'' \in [a, b]$ \nl
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.543 $x' -x'' \geq \beta, x_',x'' \in [a, b]$
-                                               \nl
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (33.08363pt too wide) in paragraph at lines 530--546
-\OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 j [][] [][] []\OT1/cmr/m/n/12 (\OML/cmm/m/it
-/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ 
-\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ))\OML/c
-mm/m/it/12 dx\OMS/cmsy/m/n/12 j ^^T [] j [][] j ^^T [][] [][] j\OML/cmm/m/it/12
- f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OM
-L/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )\OMS/cmsy/
-m/n/12 j\OML/cmm/m/it/12 dx < [] [][] []dx \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 530--546
+Underfull \hbox (badness 10000) in paragraph at lines 526--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--546
+Underfull \hbox (badness 10000) in paragraph at lines 526--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--549
+Underfull \hbox (badness 10000) in paragraph at lines 543--545
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--553
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--555
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--561
+Underfull \hbox (badness 10000) in paragraph at lines 546--549
 
  []
 
@@ -2675,163 +2097,120 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 562.
+(babel)             in language  on input line 549.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 562.
+(babel)             in language  on input line 549.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 562.
+(babel)             in language  on input line 549.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 562.
-[11]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 562.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 562.
-
-! Argument of \frac  has an extra }.
-<inserted text> 
-                \par 
-l.565 ..._i)(x_i - x_{i-1}) | \geq \frac{\beta^2}}
-                                                  {8} \int_a^b |f''(x)|dx $ \nl
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \frac  was complete.
-<to be read again> 
-                   \par 
-l.565 ..._i)(x_i - x_{i-1}) | \geq \frac{\beta^2}}
-                                                  {8} \int_a^b |f''(x)|dx $ \nl
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.565 ..._i)(x_i - x_{i-1}) | \geq \frac{\beta^2}}
-                                                  {8} \int_a^b |f''(x)|dx $ \nl
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Too many }'s.
-<recently read> }
-                 
-l.565 ..._i)(x_i - x_{i-1}) | \geq \frac{\beta^2}}
-                                                  {8} \int_a^b |f''(x)|dx $ \nl
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.565 ...- x_{i-1}) | \geq \frac{\beta^2}}{8} \int
-                                                  _a^b |f''(x)|dx $ \nl
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--567
+(babel)             in language  on input line 549.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--572
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 572.
+(babel)             in language  on input line 558.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 572.
-! Double subscript.
-l.578 ...)|_{x_{i-1}}^{x=x_i}  - \int_{x_{i-1}}^x_
-                                                  i f'(x)(x-t_i)dx= \frac{f(...
-I treat `x_1_2' essentially like `x_1{}_2'.
+(babel)             in language  on input line 558.
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--563
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--579
+Underfull \hbox (badness 10000) in paragraph at lines 564--568
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 580.
+(babel)             in language  on input line 568.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 580.
-! Double superscript.
-l.582 ...РіРґР° $\int_m^n f(x)dx = \sum_{i=m}^{n}^
-                                                  * f(i) - \frac{1}{2} \int_...
-I treat `x^1^2' essentially like `x^1{}^2'.
+(babel)             in language  on input line 568.
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--576
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 577.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 577.
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrv invalid in math mode on input line 594.
+LaTeX Warning: Command \cyro invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrz invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrz invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrr invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrr invalid in math mode on input line 594.
+LaTeX Warning: Command \cyra invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrs invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrs invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrt invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrt invalid in math mode on input line 594.
+LaTeX Warning: Command \cyra invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 594.
+LaTeX Warning: Command \cyre invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrt invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrt invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 594.
+LaTeX Warning: Command \cyra invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrf invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrf invalid in math mode on input line 594.
+LaTeX Warning: Command \cyru invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyru invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrn invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrn invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrc invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrc invalid in math mode on input line 594.
+LaTeX Warning: Command \cyri invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyri invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrya invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyrya invalid in math mode on input line 594.
+LaTeX Warning: Command \cyro invalid in math mode on input line 591.
 
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 594.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 594.
+LaTeX Warning: Command \cyrt invalid in math mode on input line 591.
 
 Missing character: There is no в in font cmr12!
 Missing character: There is no о in font cmr12!
@@ -2856,7 +2235,7 @@ Missing character: There is no я in font cmr12!
 Missing character: There is no о in font cmr12!
 Missing character: There is no т in font cmr12!
 
-Overfull \hbox (5.89873pt too wide) in paragraph at lines 581--596
+Overfull \hbox (5.89873pt too wide) in paragraph at lines 578--593
 [][] \OML/cmm/m/it/12 ln\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ) = 
 [][] \OML/cmm/m/it/12 ln\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OM
 L/cmm/m/it/12 dx \OT1/cmr/m/n/12 + [] \OMS/cmsy/m/n/12 ^^@ [] [][] []\OML/cmm/m
@@ -2866,76 +2245,7 @@ L/cmm/m/it/12 dx \OT1/cmr/m/n/12 + [] \OMS/cmsy/m/n/12 ^^@ [] [][] []\OML/cmm/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--596
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 596.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 596.
-
-Overfull \hbox (18.64275pt too wide) in paragraph at lines 598--598
-[][][][]\T2A/cmr/m/n/12 Сделать 
- []
-
-
-Overfull \hbox (1.67467pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 тель- 
- []
-
-
-Overfull \hbox (39.52655pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 человечески  
- []
-
-
-Overfull \hbox (18.64275pt too wide) in paragraph at lines 598--598
-[][][][]\T2A/cmr/m/n/12 Сделать 
- []
-
-
-Overfull \hbox (1.67467pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 тель- 
- []
-
-
-Overfull \hbox (39.52655pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 человечески  
- []
-
-
-Overfull \hbox (18.64275pt too wide) in paragraph at lines 598--598
-[][][][]\T2A/cmr/m/n/12 Сделать 
- []
-
-
-Overfull \hbox (1.67467pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 тель- 
- []
-
-
-Overfull \hbox (39.52655pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 человечески  
- []
-
-
-Overfull \hbox (18.64275pt too wide) in paragraph at lines 598--598
-[][][][]\T2A/cmr/m/n/12 Сделать 
- []
-
-
-Overfull \hbox (1.67467pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 тель- 
- []
-
-
-Overfull \hbox (39.52655pt too wide) in paragraph at lines 598--598
-\T2A/cmr/m/n/12 человечески  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--606
+Underfull \hbox (badness 10000) in paragraph at lines 578--593
 
  []
 
@@ -2946,144 +2256,188 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 606.
+(babel)             in language  on input line 593.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 606.
+(babel)             in language  on input line 593.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 606.
+(babel)             in language  on input line 593.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 606.
-[12]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.607   Р—РЅР°С‡РёС‚  \begin{bmatrix}
-                                      $n! \sim_{n\rightarrow\infty} \sqrt{2\...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 593.
+[13]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 593.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 593.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.607   Р—РЅР°С‡РёС‚  \begin{bmatrix} $n! \sim
-                                              _{n\rightarrow\infty} \sqrt{2\...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.607 ...t{2\pi} n^ne^{-n}\sqrt{n}$  \end{bmatrix}
-                                                  -- \textbf{Р¤РѕСЂРјСѓР»Р° ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.607 ...t{2\pi} n^ne^{-n}\sqrt{n}$  \end{bmatrix}
-                                                  -- \textbf{Р¤РѕСЂРјСѓР»Р° ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
-
+Overfull \hbox (18.64275pt too wide) in paragraph at lines 595--595
+[][][][]\T2A/cmr/m/n/12 Сделать 
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 608.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 608.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 609.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 609.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.610 Р
-       §Р°СЃС‚РёС‡РЅС‹Р№ РїСЂРµРґРµР» РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё -...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 610--614
-
+Overfull \hbox (1.67467pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 тель- 
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 614.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 614.
-! Undefined control sequence.
-l.622 ... \geq y_n \geq y_{n+1} \geq \dots \geq \y
-                                                  _1$ \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+Overfull \hbox (39.52655pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 человечески  
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--625
+Overfull \hbox (18.64275pt too wide) in paragraph at lines 595--595
+[][][][]\T2A/cmr/m/n/12 Сделать 
+ []
+
+
+Overfull \hbox (1.67467pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 тель- 
+ []
+
+
+Overfull \hbox (39.52655pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 человечески  
+ []
+
+
+Overfull \hbox (18.64275pt too wide) in paragraph at lines 595--595
+[][][][]\T2A/cmr/m/n/12 Сделать 
+ []
+
+
+Overfull \hbox (1.67467pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 тель- 
+ []
+
+
+Overfull \hbox (39.52655pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 человечески  
+ []
+
+
+Overfull \hbox (18.64275pt too wide) in paragraph at lines 595--595
+[][][][]\T2A/cmr/m/n/12 Сделать 
+ []
+
+
+Overfull \hbox (1.67467pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 тель- 
+ []
+
+
+Overfull \hbox (39.52655pt too wide) in paragraph at lines 595--595
+\T2A/cmr/m/n/12 человечески  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--625
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 625.
+(babel)             in language  on input line 605.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 625.
+(babel)             in language  on input line 605.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 606.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 606.
 
-LaTeX Warning: Command \CYRT invalid in math mode on input line 637.
+Underfull \hbox (badness 10000) in paragraph at lines 607--611
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 611.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 611.
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
+
+ []
 
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 637.
+Underfull \hbox (badness 10000) in paragraph at lines 612--622
+
+ []
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 637.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 622.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 622.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 622.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 622.
+[14]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 622.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 622.
 
 
-LaTeX Warning: Command \cyrd invalid in math mode on input line 637.
+LaTeX Warning: Command \CYRT invalid in math mode on input line 634.
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 637.
+LaTeX Warning: Command \cyro invalid in math mode on input line 634.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 634.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 634.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 634.
 
 Missing character: There is no Т in font cmr12!
 Missing character: There is no о in font cmr12!
 Missing character: There is no г in font cmr12!
 Missing character: There is no д in font cmr12!
 Missing character: There is no а in font cmr12!
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.644 ...x_{n+1},\dots) + sup(x'_n,x'_{n+1},\dots}
-                                                  ) $\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--651
+Underfull \hbox (badness 10000) in paragraph at lines 623--648
 
  []
 
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 648.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 648.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 648.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@overline' on input line 648.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 648.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 661.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 661.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 661.
+
+Missing character: There is no п in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no и in font cmr12!
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3091,103 +2445,75 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 651.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 651.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 651.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 651.
-[13]
+(babel)             in language  on input line 665.
+[15]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 651.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 651.
+(babel)             in language  on input line 665.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 651.
+LaTeX Warning: Command \cyrp invalid in math mode on input line 671.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@overline' on input line 651.
+LaTeX Warning: Command \cyro invalid in math mode on input line 671.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 651.
+LaTeX Warning: Command \cyrp invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrp invalid in math mode on input line 664.
+LaTeX Warning: Command \cyrr invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrr invalid in math mode on input line 664.
+LaTeX Warning: Command \cyre invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyri invalid in math mode on input line 664.
-
-Missing character: There is no п in font cmr12!
-Missing character: There is no р in font cmr12!
-Missing character: There is no и in font cmr12!
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 668.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 668.
-
-LaTeX Warning: Command \cyrp invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrd invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrery invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrp invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrd invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrr invalid in math mode on input line 674.
+LaTeX Warning: Command \cyru invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrsh invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrd invalid in math mode on input line 674.
+LaTeX Warning: Command \cyre invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrery invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrd invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrt invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyru invalid in math mode on input line 674.
+LaTeX Warning: Command \cyre invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrsh invalid in math mode on input line 674.
+LaTeX Warning: Command \cyro invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrr invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrishrt invalid in math mode on input line 674.
+LaTeX Warning: Command \cyre invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyrt invalid in math mode on input line 674.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 671.
 
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 674.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 674.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 674.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 674.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 674.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 674.
+LaTeX Warning: Command \cyre invalid in math mode on input line 671.
 
 Missing character: There is no п in font cmr12!
 Missing character: There is no о in font cmr12!
@@ -3209,9 +2535,34 @@ Missing character: There is no е in font cmr12!
 Missing character: There is no м in font cmr12!
 Missing character: There is no е in font cmr12!
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 679.
+(babel)             in language  on input line 676.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 679.
+(babel)             in language  on input line 676.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@overline' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 676.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 693.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 693.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 694.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 694.
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--712
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3219,131 +2570,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 712.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 712.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 712.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 696.
-[14]
+(babel)             in language  on input line 712.
+[16]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 712.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 696.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 697.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 697.
-
-Underfull \hbox (badness 10000) in paragraph at lines 698--715
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 715.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 715.
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.717      \phi  : \[
-                     a,b\]\rightarrow <A,B> $ РЅРµРїСЂРµСЂС‹РІРЅР° \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.717      \phi  : \[a,b\]
-                          \rightarrow <A,B> $ РЅРµРїСЂРµСЂС‹РІРЅР° \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+(babel)             in language  on input line 712.
 
 
-! LaTeX Error: \begin{document} ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.717      \phi  : \[a,b\]
-                          \rightarrow <A,B> $ РЅРµРїСЂРµСЂС‹РІРЅР° \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.717      \phi  : \[a,b\]
-                          \rightarrow <A,B> $ РЅРµРїСЂРµСЂС‹РІРЅР° \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.717      \phi  : \[a,b\]
-                          \rightarrow <A,B> $ РЅРµРїСЂРµСЂС‹РІРЅР° \\
-Things are pretty mixed up, but I think the worst is over.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.717      \phi  : \[a,b\]\rightarrow
-                                      <A,B> $ РЅРµРїСЂРµСЂС‹РІРЅР° \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 719.
+LaTeX Warning: Command \cyra invalid in math mode on input line 716.
 
 Missing character: There is no а in font cmr12!
-! Missing { inserted.
-<to be read again> 
-                   _
-l.730     $ \sqrt{f(x_1) f(x_2)\dots f(x__
-                                          n)} = exp() $....\\
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.730 ...qrt{f(x_1) f(x_2)\dots f(x__n)} = exp() $
-                                                  ....\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 716--736
+Underfull \hbox (badness 10000) in paragraph at lines 713--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--736
+Underfull \hbox (badness 10000) in paragraph at lines 713--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--736
+Underfull \hbox (badness 10000) in paragraph at lines 713--733
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 733.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 733.
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--749
 
  []
 
@@ -3354,35 +2618,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 749.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 749.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 749.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 736.
-[15]
+(babel)             in language  on input line 749.
+[17]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 749.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 749.
 
-! Double subscript.
-l.744 ...\sum \alpha_i x_i)^p \leq \sum \alpha_ x_
-                                                  i^p $- РЅРµСЂР°РІРµРЅСЃС‚Р...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 737--752
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 752.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 752.
-
-Overfull \hbox (69.1406pt too wide) in paragraph at lines 753--765
+Overfull \hbox (69.1406pt too wide) in paragraph at lines 750--762
 \OMS/cmsy/m/n/12 j [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]
 \OT1/cmr/m/n/12 )\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cm
 r/m/n/12 )[]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 j [] \OML/cmm
@@ -3395,21 +2644,43 @@ OMS/cmsy/m/n/12 j[][]\OT1/cmr/m/n/12 )[]([][] \OML/cmm/m/it/12 g\OT1/cmr/m/n/12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--765
+Underfull \hbox (badness 10000) in paragraph at lines 750--762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--765
+Underfull \hbox (badness 10000) in paragraph at lines 750--762
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 762.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 762.
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--775
+Underfull \hbox (badness 10000) in paragraph at lines 763--772
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 778.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 778.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 779.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 779.
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--783
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 783.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 783.
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--790
 
  []
 
@@ -3420,42 +2691,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 775.
+(babel)             in language  on input line 790.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 775.
+(babel)             in language  on input line 790.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 775.
+(babel)             in language  on input line 790.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 775.
-[16]
+(babel)             in language  on input line 790.
+[18]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 781.
+(babel)             in language  on input line 790.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 781.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 782.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 782.
+(babel)             in language  on input line 790.
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--786
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 786.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 786.
-
-Underfull \hbox (badness 10000) in paragraph at lines 787--793
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 793.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 793.
-
-Overfull \hbox (4.9603pt too wide) in paragraph at lines 794--802
+Overfull \hbox (4.9603pt too wide) in paragraph at lines 791--799
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 lim[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \
 OML/cmm/m/it/12 ln\OT1/cmr/m/n/12 (1) = \OML/cmm/m/it/12 ln\OT1/cmr/m/n/12 (\OM
 L/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j[] \OT1/cmr/m/n/12 = [][] []\
@@ -3465,71 +2714,71 @@ n/12 ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--802
+Underfull \hbox (badness 10000) in paragraph at lines 791--799
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 802.
+(babel)             in language  on input line 799.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 802.
+(babel)             in language  on input line 799.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 803.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 803.
+(babel)             in language  on input line 800.
 
-LaTeX Warning: Command \cyri invalid in math mode on input line 808.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 808.
+LaTeX Warning: Command \cyri invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrt invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrn invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrt invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 808.
+LaTeX Warning: Command \cyre invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrr invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrg invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrr invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrl invalid in math mode on input line 808.
+LaTeX Warning: Command \cyra invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrr invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrl invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrr invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrs invalid in math mode on input line 808.
+LaTeX Warning: Command \cyra invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrh invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrs invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrh invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrd invalid in math mode on input line 808.
+LaTeX Warning: Command \cyro invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyri invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrd invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrt invalid in math mode on input line 808.
+LaTeX Warning: Command \cyri invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrs invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrt invalid in math mode on input line 805.
 
 
-LaTeX Warning: Command \cyrya invalid in math mode on input line 808.
+LaTeX Warning: Command \cyrs invalid in math mode on input line 805.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 805.
 
 Missing character: There is no и in font cmr12!
 Missing character: There is no н in font cmr12!
@@ -3550,24 +2799,42 @@ Missing character: There is no т in font cmr12!
 Missing character: There is no с in font cmr12!
 Missing character: There is no я in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--809
+Underfull \hbox (badness 10000) in paragraph at lines 801--806
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--809
+Underfull \hbox (badness 10000) in paragraph at lines 801--806
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 809.
+(babel)             in language  on input line 806.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 809.
+(babel)             in language  on input line 806.
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--816
+Underfull \hbox (badness 10000) in paragraph at lines 807--813
 
  []
 
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 813.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 813.
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--822
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 822.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 822.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3575,295 +2842,81 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 816.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 816.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 816.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 816.
-[17]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 816.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 816.
-
-Underfull \hbox (badness 10000) in paragraph at lines 817--825
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 817--825
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 825.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 825.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 829.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 829.
-
-Underfull \hbox (badness 10000) in paragraph at lines 830--835
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 835.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 835.
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--841
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 842--843
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 843.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 843.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 844.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 844.
-
-Underfull \hbox (badness 10000) in paragraph at lines 845--851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 845--851
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 851.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 851.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 851.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 851.
-[18]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 851.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 851.
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--879
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--879
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--879
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--879
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--879
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 880.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 880.
-
-Underfull \hbox (badness 10000) in paragraph at lines 881--900
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 881--900
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 881--900
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 901.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 901.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 901.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 901.
+(babel)             in language  on input line 826.
 [19]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 905.
+(babel)             in language  on input line 826.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 905.
+(babel)             in language  on input line 826.
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--927
+Underfull \hbox (badness 10000) in paragraph at lines 827--832
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 928.
+(babel)             in language  on input line 832.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 928.
+(babel)             in language  on input line 832.
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--933
+Underfull \hbox (badness 10000) in paragraph at lines 833--838
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 934.
+(babel)             in language  on input line 840.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 934.
+(babel)             in language  on input line 840.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 841.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 841.
 
-Underfull \hbox (badness 10000) in paragraph at lines 935--944
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 935--944
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 935--944
+Underfull \hbox (badness 10000) in paragraph at lines 842--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 945--951
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 945--951
+Underfull \hbox (badness 10000) in paragraph at lines 842--848
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 951.
+(babel)             in language  on input line 848.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 951.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.953 ...F(A) = \int_a^A f$-РѕРіСЂР°РЅРёС‡РµРЅР° }
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 848.
 
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.953 ...F(A) = \int_a^A f$-РѕРіСЂР°РЅРёС‡РµРЅР° }
-                                                  \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.953 ...F(A) = \int_a^A f$-РѕРіСЂР°РЅРёС‡РµРЅР° }
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.953 ...F(A) = \int_a^A f$-РѕРіСЂР°РЅРёС‡РµРЅР° }
-                                                  \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.958 ...$ \int_a^bf(x)g(x)dx- $ СЃС…РѕРґРёС‚СЃСЏ}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.958 ...$ \int_a^bf(x)g(x)dx- $ СЃС…РѕРґРёС‚СЃСЏ}
-                                                  \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.958 ...$ \int_a^bf(x)g(x)dx- $ СЃС…РѕРґРёС‚СЃСЏ}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.958 ...$ \int_a^bf(x)g(x)dx- $ СЃС…РѕРґРёС‚СЃСЏ}
-                                                  \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--975
+Underfull \hbox (badness 10000) in paragraph at lines 849--876
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--975
+Underfull \hbox (badness 10000) in paragraph at lines 849--876
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--975
+Underfull \hbox (badness 10000) in paragraph at lines 849--876
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--975
+Underfull \hbox (badness 10000) in paragraph at lines 849--876
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 849--876
 
  []
 
@@ -3874,136 +2927,253 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 975.
+(babel)             in language  on input line 876.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 975.
+(babel)             in language  on input line 876.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 975.
+(babel)             in language  on input line 876.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 975.
+(babel)             in language  on input line 876.
 [20]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 877.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 877.
 
-LaTeX Warning: Command \cyrt invalid in math mode on input line 978.
+Underfull \hbox (badness 10000) in paragraph at lines 878--897
+
+ []
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 978.
+Underfull \hbox (badness 10000) in paragraph at lines 878--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 878--897
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 902.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 902.
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--924
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 924.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 924.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 924.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 924.
+[21]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 925.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 925.
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--930
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 931.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 931.
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--941
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--941
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--941
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 942--948
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 942--948
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 948.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 948.
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 950.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 950.
+
+Missing character: There is no о in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no а in font cmr12!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyrh invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 955.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 955.
+
+Missing character: There is no с in font cmr12!
+Missing character: There is no х in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no я in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--972
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 972.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 972.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 972.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 972.
+[22]
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 975.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 975.
 
 Missing character: There is no т in font cmr12!
 Missing character: There is no к in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--980
+Underfull \hbox (badness 10000) in paragraph at lines 973--977
 
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.986 ...\rightarrow_{A \rightarrow +\infty} 0  $}
-                                                   - РµСЃР»Рё $ h(x)  \in C^...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.986 ...\rightarrow_{A \rightarrow +\infty} 0  $}
-                                                   - РµСЃР»Рё $ h(x)  \in C^...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.986 ...\rightarrow_{A \rightarrow +\infty} 0  $}
-                                                   - РµСЃР»Рё $ h(x)  \in C^...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.986 ...\rightarrow_{A \rightarrow +\infty} 0  $}
-                                                   - РµСЃР»Рё $ h(x)  \in C^...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 988.
+(babel)             in language  on input line 985.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 988.
+(babel)             in language  on input line 985.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 989.
+(babel)             in language  on input line 986.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 989.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.991 ...nfty} S_N = S \in \overline{\mathbb{R}}$}
-                                                   ,С‚Рѕ РѕРЅ  РЅР°Р·С‹РІР°Р...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 986.
 
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.991 ...nfty} S_N = S \in \overline{\mathbb{R}}$}
-                                                   ,С‚Рѕ РѕРЅ  РЅР°Р·С‹РІР°Р...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.991 ...nfty} S_N = S \in \overline{\mathbb{R}}$}
-                                                   ,С‚Рѕ РѕРЅ  РЅР°Р·С‹РІР°Р...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.991 ...nfty} S_N = S \in \overline{\mathbb{R}}$}
-                                                   ,С‚Рѕ РѕРЅ  РЅР°Р·С‹РІР°Р...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Too many }'s.
-<recently read> }
-                 
-l.991 ...ІР°РµС‚СЃСЏ \textbf{СЃСѓРјРјР° СЂСЏРґР°}}
-                                                  \\
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 990--997
+Underfull \hbox (badness 10000) in paragraph at lines 987--994
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--997
+Underfull \hbox (badness 10000) in paragraph at lines 987--994
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--997
+Underfull \hbox (badness 10000) in paragraph at lines 987--994
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--997
+Underfull \hbox (badness 10000) in paragraph at lines 987--994
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 994.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 994.
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
@@ -4014,281 +3184,68 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 997.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 997.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 997.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 997.
-[21]
+(babel)             in language  on input line 996.
+[23]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 997.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 997.
+(babel)             in language  on input line 996.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.998 $ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m}
-                                               $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 998--1002
 
-! Extra }, or forgotten $.
-\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.998 $ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m}
-                                               $\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.998 $ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m}
-                                               $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.998 $ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m}
-                                               $\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 998--999
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1006
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1010
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1014
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 1020.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 999.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1003 ...ЃСЏ Рё $ \sum c_n =\sum a_n +\sum b_n $}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 1020.
 
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.1003 ...ЃСЏ Рё $ \sum c_n =\sum a_n +\sum b_n $}
-                                                  \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1003 ...ЃСЏ Рё $ \sum c_n =\sum a_n +\sum b_n $}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1003 ...ЃСЏ Рё $ \sum c_n =\sum a_n +\sum b_n $}
-                                                  \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1005
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1007 ... $ (\sum\lambda a_n)=\lambda \sum a_n $}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.1007 ... $ (\sum\lambda a_n)=\lambda \sum a_n $}
-                                                  \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1007 ... $ (\sum\lambda a_n)=\lambda \sum a_n $}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1007 ... $ (\sum\lambda a_n)=\lambda \sum a_n $}
-                                                  \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1006--1009
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1017
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1018 ...1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n }
-                                                   $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\fbox ...ox {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.1018 ...1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n }
-                                                   $\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1018 ...1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n }
-                                                   $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1018 ...1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n }
-                                                   $\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1020
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1029
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1023.
+(babel)             in language  on input line 1029.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1023.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1025 ...rightarrow_{k \rightarrow + \infty} 0 $}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 1029.
 
-! Extra }, or forgotten $.
-<recently read> }
-                 
-l.1025 ...rightarrow_{k \rightarrow + \infty} 0 $}
-                                                  \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1025 ...rightarrow_{k \rightarrow + \infty} 0 $}
-                                                  \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1025 ...rightarrow_{k \rightarrow + \infty} 0 $}
-                                                  \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1028
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1032
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1032.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1032.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1038
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1038.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1038.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1039.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1039.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1035
 
  []
 
@@ -4299,29 +3256,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1045.
+(babel)             in language  on input line 1035.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1045.
+(babel)             in language  on input line 1035.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1045.
+(babel)             in language  on input line 1035.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1045.
-[22]
+(babel)             in language  on input line 1035.
+[24]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1045.
+(babel)             in language  on input line 1035.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1045.
+(babel)             in language  on input line 1035.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1036.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1036.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1042
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1075.
+(babel)             in language  on input line 1042.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1075.
+(babel)             in language  on input line 1042.
 
-Overfull \hbox (17.21646pt too wide) in paragraph at lines 1076--1088
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1047
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1072.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1072.
+
+Overfull \hbox (17.21646pt too wide) in paragraph at lines 1073--1085
 \T2A/cmr/m/n/12 2. $\OML/cmm/m/it/12 K[] \OMS/cmsy/m/n/12 ^^U \OT1/cmr/m/n/12 1
  \OMS/cmsy/m/n/12 ) \OML/cmm/m/it/12 a[] \OMS/cmsy/m/n/12 ^^U \OT1/cmr/m/n/12 1
 $ \T2A/cmr/m/n/12 для бес-ко-неч-но-го чис-ла но-ме-ров $\OMS/cmsy/m/n/12 ! \OM
@@ -4331,7 +3301,7 @@ n/12 ^^@$\T2A/cmr/m/n/12 расходится
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1076--1088
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1085
 
  []
 
@@ -4342,25 +3312,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1088.
+(babel)             in language  on input line 1085.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1088.
+(babel)             in language  on input line 1085.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1088.
+(babel)             in language  on input line 1085.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1088.
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1094
+(babel)             in language  on input line 1085.
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1091
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1094.
+(babel)             in language  on input line 1091.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1094.
+(babel)             in language  on input line 1091.
 ! Undefined control sequence.
-l.1108         \Rightarrow a_n \up
-                                    $ РїСЂРё $ n \geq N \Rightarrow a_n  not...
+l.1105 	\Rightarrow a_n \up
+                             $ РїСЂРё $ n \geq N \Rightarrow a_n  not \right...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4368,80 +3338,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1095--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1092--1106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1113
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1114.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1114.
-! Double subscript.
-l.1115         $ a_n_
-                     1b_n>0 \\
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1115--1118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1110
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1124.
+(babel)             in language  on input line 1111.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1124.
+(babel)             in language  on input line 1111.
 
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1132--1132
-[][][][]\T2A/cmr/m/n/12 Нужен 
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1115
+
  []
 
 
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1132--1132
-\T2A/cmr/m/n/12 мер..Кохася  
- []
-
-
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1132--1132
-[][][][]\T2A/cmr/m/n/12 Нужен 
- []
-
-
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1132--1132
-\T2A/cmr/m/n/12 мер..Кохася  
- []
-
-
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1132--1132
-[][][][]\T2A/cmr/m/n/12 Нужен 
- []
-
-
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1132--1132
-\T2A/cmr/m/n/12 мер..Кохася  
- []
-
-
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1132--1132
-[][][][]\T2A/cmr/m/n/12 Нужен 
- []
-
-
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1132--1132
-\T2A/cmr/m/n/12 мер..Кохася  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1137
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1121
 
  []
 
@@ -4452,103 +3368,138 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1137.
-[24]
+(babel)             in language  on input line 1121.
+[26]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1138.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1138.
+(babel)             in language  on input line 1121.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1139        $
-                \lim n(\frac{a_n}{a_{n+1}}-1)=r \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1129--1129
 [][][][]\T2A/cmr/m/n/12 Нужен 
  []
 
 
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1129--1129
 \T2A/cmr/m/n/12 мер..Кохася  
  []
 
 
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1129--1129
 [][][][]\T2A/cmr/m/n/12 Нужен 
  []
 
 
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1129--1129
 \T2A/cmr/m/n/12 мер..Кохася  
  []
 
 
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1129--1129
 [][][][]\T2A/cmr/m/n/12 Нужен 
  []
 
 
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1129--1129
 \T2A/cmr/m/n/12 мер..Кохася  
  []
 
 
-Overfull \hbox (10.80713pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1129--1129
 [][][][]\T2A/cmr/m/n/12 Нужен 
  []
 
 
-Overfull \hbox (38.05391pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1129--1129
 \T2A/cmr/m/n/12 мер..Кохася  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1150
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1134
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1150.
+(babel)             in language  on input line 1135.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1150.
+(babel)             in language  on input line 1135.
 
-Overfull \hbox (11.78604pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1145--1145
+[][][][]\T2A/cmr/m/n/12 Нужен 
+ []
+
+
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1145--1145
+\T2A/cmr/m/n/12 мер..Кохася  
+ []
+
+
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1145--1145
+[][][][]\T2A/cmr/m/n/12 Нужен 
+ []
+
+
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1145--1145
+\T2A/cmr/m/n/12 мер..Кохася  
+ []
+
+
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1145--1145
+[][][][]\T2A/cmr/m/n/12 Нужен 
+ []
+
+
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1145--1145
+\T2A/cmr/m/n/12 мер..Кохася  
+ []
+
+
+Overfull \hbox (10.80713pt too wide) in paragraph at lines 1145--1145
+[][][][]\T2A/cmr/m/n/12 Нужен 
+ []
+
+
+Overfull \hbox (38.05391pt too wide) in paragraph at lines 1145--1145
+\T2A/cmr/m/n/12 мер..Кохася  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1147
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1147.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1147.
+
+Overfull \hbox (11.78604pt too wide) in paragraph at lines 1148--1148
 [][][][]\T2A/cmr/m/n/12 Нужна 
  []
 
 
-Overfull \hbox (11.78604pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (11.78604pt too wide) in paragraph at lines 1148--1148
 [][][][]\T2A/cmr/m/n/12 Нужна 
  []
 
 
-Overfull \hbox (11.78604pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (11.78604pt too wide) in paragraph at lines 1148--1148
 [][][][]\T2A/cmr/m/n/12 Нужна 
  []
 
 
-Overfull \hbox (11.78604pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (11.78604pt too wide) in paragraph at lines 1148--1148
 [][][][]\T2A/cmr/m/n/12 Нужна 
  []
 
 
-Overfull \hbox (5.54716pt too wide) in paragraph at lines 1151--1160
+Overfull \hbox (5.54716pt too wide) in paragraph at lines 1148--1157
 [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 ) \OM
 S/cmsy/m/n/12 ^^@ [][] [][] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
  x\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 dx \OT1/cmr/m/n/12 = [][]([][] \OML/cmm/m/i
@@ -4559,46 +3510,16 @@ OT1/cmr/m/n/12 )\OML/cmm/m/it/12 dx \OT1/cmr/m/n/12 = [][] [][](\OML/cmm/m/it/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1160
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1157
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1161.
+(babel)             in language  on input line 1158.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1161.
+(babel)             in language  on input line 1158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1173
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1173.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1173.
-! Missing { inserted.
-<to be read again> 
-                   _
-l.1174        $ a__
-                   n $-РїСЂРѕРёР·РІРѕР»СЊРЅС‹Рµ СЃР»Р°РіР°РµРјС‹Рµ Р­РєРІ:
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1174        $ a__n $
-                      -РїСЂРѕРёР·РІРѕР»СЊРЅС‹Рµ СЃР»Р°РіР°РµРјС‹Рµ Р­РєРІ:
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1183
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1170
 
  []
 
@@ -4609,14 +3530,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1183.
+(babel)             in language  on input line 1170.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1183.
+(babel)             in language  on input line 1170.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1183.
+(babel)             in language  on input line 1170.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1183.
-[25]
+(babel)             in language  on input line 1170.
+[27]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1170.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1170.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1180
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1180.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1180.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1182.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1182.
+<pictures/leidn.png, id=592, 421.575pt x 227.85126pt>
+File: pictures/leidn.png Graphic file (type png)
+ <use pictures/leidn.png>
+Package pdftex.def Info: pictures/leidn.png used on input line 1183.
+(pdftex.def)             Requested size: 421.57396pt x 227.8507pt.
+
+Overfull \hbox (8.48575pt too wide) in paragraph at lines 1183--1188
+[] $\OML/cmm/m/it/12 c[] \OMS/cmsy/m/n/12 ^^U
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1204
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -4624,32 +3582,86 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1189.
+(babel)             in language  on input line 1204.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1189.
+(babel)             in language  on input line 1204.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1189.
+(babel)             in language  on input line 1204.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1189.
-[26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1189.
+(babel)             in language  on input line 1204.
+[28 <./pictures/leidn.png>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1204.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1204.
+
+Overfull \hbox (13.2181pt too wide) in paragraph at lines 1205--1224
+[][] \OML/cmm/m/it/12 a[]b[] \OT1/cmr/m/n/12 = [] + [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1224
+
+ []
+
+
+Overfull \hbox (8.06245pt too wide) in paragraph at lines 1225--1231
+\OMS/cmsy/m/n/12 j [] \OT1/cmr/m/n/12 1 + [] + [] \OML/cmm/m/it/12 n\OMS/cmsy/m
+/n/12 j \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 Im\OT1/cmr/m/n/12 
+(\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 + [] [][])\OMS/cmsy/m/n/12 j ^^T j\OML/cm
+m/m/it/12 e[] \OT1/cmr/m/n/12 + [] + [][] \OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 = 
+\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 e[][]\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 = []
+ \OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 e[]\OMS/cmsy/m/n/12 j[] ^^T
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1231.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1231.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1231.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1231.
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1236.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1236.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1236.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1236.
+[30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1236.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1236.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 01C9E16875ABD3C40FCC1D914EF4ECE7;25815.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1189.
+(rerunfilecheck)             Checksum: 87F4BBBC560AE1FBA4D9C6F2A9B12529;23808.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1236.
  ) 
 Here is how much of TeX's memory you used:
- 24030 strings out of 492995
- 412824 string characters out of 6132704
- 593611 words of memory out of 5000000
- 27022 multiletter control sequences out of 15000+600000
+ 23714 strings out of 492995
+ 408624 string characters out of 6132704
+ 589437 words of memory out of 5000000
+ 26748 multiletter control sequences out of 15000+600000
  19314 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,76p,1571b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,76p,1564b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
@@ -4667,12 +3679,13 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
 ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on document.pdf (26 pages, 389534 bytes).
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on document.pdf (30 pages, 448417 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
- 614 compressed objects within 7 object streams
- 143 named destinations out of 1000 (max. 500000)
- 889 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 644 compressed objects within 7 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 898 words of extra memory for PDF output out of 10000 (max. 10000000)
 
