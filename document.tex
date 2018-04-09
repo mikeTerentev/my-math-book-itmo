@@ -390,8 +390,8 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
 \subsection{Кардиоида}
     $x(\phi)= 2 r cos(\phi) - r cos(2\phi)$\\
     $y(\phi)= 2 r sin(\phi) - r sin(2\phi)$\\
-    $S = \frac{1}{2}\int_{0}^{2\pi}(2cos(\phi)-2cos( 2\phi )( 2cos( \phi )-cos( 2\phi )) + (2sin\phi -2 sin(2\phi))(2sin\phi - sin(2\phi)d\phi) = \frac{r^2}{2}\int_{0}^{2\pi}4 -6( cos(2\phi)cos(\phi) + sin(2\phi)sin(\phi)) +2 d\phi = \frac{r^2}{2}6\pi * 2 - 3r^2\int_{0}^{2\pi}cos\phi d\phi = \[ \boxed{\boxed{6\pi r^2 $}}\\
-     \]
+    $S = \frac{1}{2}\int_{0}^{2\pi}(2cos(\phi)-2cos( 2\phi )( 2cos( \phi )-cos( 2\phi )) + (2sin\phi -2 sin(2\phi))(2sin\phi - sin(2\phi)d\phi) = \frac{r^2}{2}\int_{0}^{2\pi}4 -6( cos(2\phi)cos(\phi) + sin(2\phi)sin(\phi)) +2 d\phi = \frac{r^2}{2}6\pi * 2 - 3r^2\int_{0}^{2\pi}cos\phi d\phi =  \boxed{\boxed{6\pi r^2 }}\\
+     $
     \\
 \textbf{Пример.Изометрическое пространство}\\
       $G \in \mathbb{R}^2$ -замкнутая выпуклая фигура
@@ -412,12 +412,12 @@ $S_{\alpha,\beta}:={(r,\phi) : \phi \in [\alpha,\beta], 0\leq r \leq r(\phi)}$;\
         \gamma_m(t)\\
     \end{pmatrix}$
     
-\subsection{Кривая Пеано}\\
+\subsection{Кривая Пеано}
 $[0,1] \rightarrow [0,1]x[0,1]$ непрерывна на  $[0,1]$\nl
-$x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
+$x \rightarrow \bigcap_{i=0}^{+\infty}A_{\epsilon_i}$ \nl
     
-\subsection{Длина}\\
-\texbf{Определние.} Функция l определена множестве главных путей $\mathbb{R}^m$ называется длиной, если: 
+\subsection{Длина}
+\textbf{Определние.} Функция l определена множестве главных путей $\mathbb{R}^m$ называется длиной, если: 
  1. l  $\geq$ 0 \\
  
  2.$l$ - адитивная\\
@@ -425,14 +425,14 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
            l(\gamma) = l(\gamma|_{[a,c]})+l(\gamma|_{[c,b]})$\\
            
  3.$\forall \gamma,\gamma_2$ - два пути\\
-        $c_\gamma, c_\gamma_2$ - их носители\\
+        $c_\gamma, c_{\gamma_2}$ - их носители\\
         Если $\exists _{biekcia} T:  C_\gamma \rightarrow C_gamma_2$ -сжатие , то тогда l($\gamma_2)\leq$ l($\gamma$)\\
         
  4.  Нормировка : для линейного пути $\gamma   \\ l(\gamma)=||\gamma(a)-\gamma(b)||$  \\
  \subsection{Теорема}
     $\gamma : [a,b] \rightarrow \mathbb{R}^m, C^1$\\
     Тогда $l(\gamma)=int_{a}^{b}||\gamma'(t)|| dt $\\
- \texbf{Доказательство}\\
+ \textbf{Доказательство}\\
     Доп считать $\gamma' != 0 $\\
     $\gamma$-инъективная\\
     $\Phi: Sigm[a,b] \rightarrow \mathbb{R}$ по совйству $\leq$) из    определения\\
@@ -447,12 +447,12 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
         $\forall x  << \lim_{\gamma(\vartriangle)\rightarrow 0}  m_\vartriangle =f(x) = lim M_\vartriangle >>$ \\
         $M_\vartriangle -m_\vartriangle \rightarrow 0$ \\
   \end{enumerate}
-  $\vartriangle \subset [a,b] \gamma(t)=(\gamma_1(t),\gots,\gamma_m(t))$\\
+  $\vartriangle \subset [a,b] \gamma(t)=(\gamma_1(t),\dots,\gamma_m(t))$\\
   $m_i(\vartriangle):= min|\gamma'_i(t)|$ ,   $M_i(\vartriangle)=max|\gamma'_i(t)|$\\
   $m_\vartriangle := \sqrt{\sum_{i=1}^m m_i(\vartriangle)^2}$,   
   $M_\vartriangle:=\sqrt{\sum_{i=1}^m M_i(\vartriangle)^2} $\\
   $ \overline\gamma : \vartriangle \rightarrow \mathbb{R}^m$ - лин путь \\
-  $\overline\gamma(t):=$ \=M * t, где \=M = (M_1($\vartriangle),\dots,M_m(\vartriangle$)) \\
+  $\overline\gamma(t):=$ \=M * t, где \=M = $(M_1(\vartriangle),\dots,M_m(\vartriangle))$ \\
   $T:C_\gamma \rightarrow C \gamma_2 \Rightarrow$ растяжение \\
   $\gamma(t) \rightarrow \overline\gamma(t)$ \\
   $\rho(\gamma(t),\gamma(t_1))=\sqrt{\sum_{i=1}^{m}\gamma_i({ t_0})(t_0-\gamma_i(t_1))^2}=$- по теореме Лагранжа\\
@@ -465,18 +465,18 @@ $x \rightarrow \bigcap_{i=0}^{+\infty}A_\epsilon_i$ \nl
  2) очевидно  заниженная оценка $\leq \sqrt{\sum(\gamma'_i(t))}\leq$ завышенная оценка.\\
  3) Очевидно\\
  \\
- \texbf{Пример.Эллипс}\\
+ \textbf{Пример.Эллипс}\\
     $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$\\
     $x= a cos(t)$  $y=sin(t)$ \\
     $e=\int_{0}^{2\pi}a\sqrt{1-\epsilon^2 sin^2(t)}dt$\\
     $f(x)=\int_{0}^{x}a\sqrt{1-\epsilon^2 sin^2(t)}dt$ - элл. интеграл воторго рода.\\
-    \texbf{Пример.В полярных координатах} \nl
+    \textbf{Пример.В полярных координатах} \nl
     $x=rcos\phi$  $y=rsin\phi$\\
     Параметризуем (дописать)
  \subsection{Лемма}
     $Var_{a}^{b} f < +\infty$\\
     Тогда f можно представить в  $f(x)=p(x)=q(x)$, где  p,q=возраст.\\
- \texbf{Доказательство}\nl
+ \textbf{Доказательство}\nl
     $2 p(x)= Var_{a}^{x}f +(f(x)-f(a))$\\
     $2 q(x)= V_{a}^{x}f +(f(x)-f(a)$\\
     $2(p(x)-q(x) =2(f(x)-f(a))$\\
@@ -527,16 +527,16 @@ $ f \in C[a,b] $\nl
 Тогда$\forall \epsilon > 0 , \exists \beta>0, \forall$ дробления $ x_0 = a< x_1 < \dots < x_n =b $ со свойством $max(x_i -x_{i-1})< \beta$ \nl
 $| \int_a^b f(x) dx  - \sum_{i=1}^n f(x_i)(x_i -x_{i-1})|<\epsilon$ \nl
 \textbf{Доказательство} \nl
-т.Кантора : $  \forall \epsilon 0 \exists \beta >0 , \forall x', x'' \in [a,b] | x' -x''| < \beta, |f(x' -f( x_'')|<\frac{\epsilon}{b - a}$ если че '  это не производная\nl
-$|\int_a^b - \sum_{i=1}^n | = | \sum_{i=1}^n \int_{x_{i-1}}^x_i f - \sum_{i=1}^n f(x_i)-x_{i-1}| = |\sum_{i=1}^n(\int_{x_{i-1}}^x_i f(x)dx - f(x_i)(x_i - x_{i-1})) |  \nl
- = |\sum_{i=1}^n \int_{x_{i-1}}^x_i (f(x)-f(x_i))dx|\leq \sum |\int_{x_{i-1}}^x| \leq   \sum_{i=1}^n \int_{x_{i-1}}|f(x)-f(x_i)|dx < \sum \int_{x_{i-1}}\frac{\epsilon}{b-a}dx = \int_a^b \frac{\epsilon}{b-a} dx = \epsilon$ \nl
+т.Кантора : $  \forall \epsilon > 0, \; \exists \beta >0 , \forall x', x'' \in [a,b], | x' -x''| < \beta, |f(x' -f( x'')|<\frac{\epsilon}{b - a}$ если че '  это не производная \nl
+$|\int \limits_a^b - \sum \limits_{i=1}^n | = | \sum \limits_{i=1}^n \int \limits_{x_{i-1}}^{x_i} f - \sum \limits_{i=1}^n f(x_i)-x_{i-1}| = |\sum_{i=1}^n(\int_{x_{i-1}}^{x_i} f(x)dx - f(x_i)(x_i - x_{i-1})) |  \nl
+ = |\sum \limits_{i=1}^n \int \limits_{x_{i-1}}^{x_i} (f(x)-f(x_i))dx|\leq \sum |\int \limits_{x_{i-1}}^x| \leqslant   \sum \limits_{i=1}^n \int \limits_{x_{i-1}}|f(x)-f(x_i)|dx < \sum \int \limits_{x_{i-1}}\frac{\epsilon}{b-a}dx = \int \limits_a^b \frac{\epsilon}{b-a} dx = \epsilon$ \nl
 Замечания \nl
 1.$\forall \epsilon > 0, \exists \beta > 0 \forall$ дробление $max(x_i - x-{i-1})<\beta$\nl
 $\forall$ оснащ \nl
-$|\int_a^b f(x)dx - \sumf(\psi_i)(x_i - x_{i-1}) | < \epsilon$ \nl
+$|\int_a^b f(x)dx - \sum(\psi_i)(x_i - x_{i-1}) | < \epsilon$ \nl
 \nl
 2б. $\omega(\beta) := sup |f(x') - f(x'')| $\nl
-$x' -x'' \geq \beta, x_',x'' \in [a, b]$ \nl
+$x' -x'' \geqslant \beta, x',x'' \in [a, b]$ \nl
 Модуль непрерывности $ \omega_f(\beta) $ \nl
 		$ \omega(\beta)$ -убывающая функция \nl
 		
@@ -571,11 +571,12 @@ a.  т.Кантора: \nl
   		$ |\int_a^b f - \sum \frac{f(x_i)+ f(x_{i -1})}{2}(x_i- x_{i-1}) |\leq \frac{\beta^2}{8}\int_a^b|f''(x)| $ \nl 	
 \textbf{Доказательство}\nl
  		$ \psi(x)= (x-x_{i-1})(x_i - x) $\nl
-  		$ \int_{x_{i-1}}^{x_i} f(x)(x-t_i)'dx = f(x)(x-t_i)|_{x_{i-1}}^{x=x_i}  - \int_{x_{i-1}}^x_i f'(x)(x-t_i)dx= \frac{f(x_i)+f(x_{i-1}i)}{2}(x_i - x_{i-1}) + (\frac{1}{2} f'(x)\psi(x)|_{x=x_{i-1}}^{x=x_i} - \frac{1}{2} \int_{x_{i-1}}^{x^i} f''(x)\psi(x)dx)$ \nl Допишите плс 2 строчки \nl
+  		$ \int 
+  		\limits_{x_{i-1}}^{x_i} f(x)(x-t_i)'dx = f(x)(x-t_i)|_{x_{i-1}}^{x=x_i}  - \int \limits_{x_{i-1}}^{x_i} f'(x)(x-t_i)dx= \frac{f(x_i)+f(x_{i-1}i)}{2}(x_i - x_{i-1}) + (\frac{1}{2} f'(x)\psi(x)|_{x=x_{i-1}}^{x=x_i} - \frac{1}{2} \int_{x_{i-1}}^{x^i} f''(x)\psi(x)dx)$ \nl Допишите плс 2 строчки \nl
   
 \subsection{Эйлера - Маклорена}
  	$ f \in C^2 [m,n], m,n \in \mathbb{R} $\nl
-c 	Тогда $\int_m^n f(x)dx = \sum_{i=m}^{n}^* f(i) - \frac{1}{2} \int_m^n f''(x) \{x\} (1 -\{x\}) dx$ \nl
+c 	Тогда $\int_m^n f(x)dx = \sum_{i=m}^{n}* f(i) - \frac{1}{2} \int_m^n f''(x) \{x\} (1 -\{x\}) dx$ \nl
  	\textbf{Ну ёё понятно} \nl
  	a=m\nl
  	b=n\nl
@@ -600,9 +601,9 @@ $ f(x)=ln(x) \\
   \sqrt{\pi} \leftarrow \frac{1}{\sqrt{k}} \frac{(2k)!!}{(2k-1)!!} = \frac{1}{\sqrt{k}}\frac{2^k(k!)^2}{(2k)!} \sim \frac{2^{2k}c^2 k^{2k}e^{-2k}k}{\sqrt{k} c (2k)^{2k}e^{2k}\sqrt{2k}} =\frac{c*k}{\sqrt{2k}}=\frac{c}{\sqrt{2}}\\
   c=\sqrt{2\pi}\\ $
  
-  Значит  \begin{bmatrix} $n! \sim_{n\rightarrow\infty} \sqrt{2\pi} n^ne^{-n}\sqrt{n}$  \end{bmatrix}-- \textbf{Формула Стирлинга} \\
+  Значит  $\begin{bmatrix} n! \sim_{n\rightarrow\infty} \sqrt{2\pi} n^ne^{-n}\sqrt{n}  \end{bmatrix}-- \textbf{Формула Стирлинга} $\\
 \section{Верхний предел последовательности}
-\subsection{Частичный предел последовательности}\\
+\subsection{Частичный предел последовательности}
 Частичный предел последовательности - это предел вдоль какой-либо последовательности \nl
 $ x_n $,  $ n_k $ -возрастающая последовательность номеров \\
 $ x_{n_k} \rightarrow_{k\rightarrow +\infty} a $ Тогда a - частичный предел $ x_n $ \\
@@ -615,7 +616,7 @@ z_n:= inf(x_n,x_{n+1},\dots) $\\
 1. $ y_N \geq y_{n+1} , z_n \geq z_{n+1} \\
 2. z_n \geq x_n \geq y_n $\\
 3. Если изменить конечное число $ x_n $, то в последовательности $ y_n $ и $ z_n $ изменится конечное число членов\nl \\
-$z_1 \geq z_2 \geq \dots \geq z_n \geq x_n \geq y_n \geq y_{n+1} \geq \dots \geq \y_1$ \\
+$z_1 \geq z_2 \geq \dots \geq z_n \geq x_n \geq y_n \geq y_{n+1} \geq \dots \geq y_1$ \\
 $ z_n\uparrow, \exists \underline{lim} z_n = lim_{n\rightarrow+\infty} , x_n \in \overline{\mathbb{R}} \\$
 $ y_n\downarrow, \exists \overline{lim} y_n = lim_{n\rightarrow+\infty} , x_n \in \overline{\mathbb{R}} \\$
 \subsection{Теорема о свойствах верхнего и нижнего предела}
@@ -710,7 +711,7 @@ $ \Longrightarrow\Longrightarrow \\
      \frac{a_1 + \dots + a_n}{n} \geq^n\sqrt{a_1 \dots a_n} \\ $
      \subsection{Неравенство психоделическое}
      1. \textbf{Неравенство Йенсена}, f -вып $ <A,B> \\
-     \phi  : \[a,b\]\rightarrow <A,B> $ непрерывна \\
+     \phi  : [a,b]\rightarrow <A,B> $ непрерывна \\
     $ \alpha :  [a,b]\rightarrow [0, +\infty )$ непрерывна, $  \int_a^b d(x) dx = 1 \\$
         Тогда $ а(\int_a^b d(x) \phi(x) dx) \leq  \int_a^b  \alpha(x) f(\phi(x))dx \\ 
         m:=inf_{x \in [a,b]} \phi(x) , M= sup_{\alpha \in [a,b]}(\phi(x))\\
@@ -723,7 +724,7 @@ $ \Longrightarrow\Longrightarrow \\
      $exp(\frac{1}{b-a}\int_a^b ln(f)))\leq \frac{1}{b -a}\int_a^b f$
      Левая часть интегральное среднее чило. \\
      Правая часть - интегральное среднее арифмитическое  \\
-    $ \sqrt{f(x_1) f(x_2)\dots f(x__n)} = exp() $....\\
+    $ \sqrt{f(x_1) f(x_2) \dots f(x_n)} = exp() $....\\
     Это неравенство Иенсена\\
     $ f(\int_A^b \lambda \phi) \leq \int_a^b \lambda(f_0 \phi) \\
     \phi \leftrightarrow ln f  \\
@@ -737,7 +738,7 @@ $ \Longrightarrow\Longrightarrow \\
      Неравентсво достигается, если \\$ \overline{a}  = (a_1^p, a_2^p \dots a_n^p) \\  \overline{b}  = (b_1^p, b_2^p \dots b_n^p) \\ \overline{a} | | \overline{b} \\$
      //
      \textbf{Доказательство}\\
-     $ (\sum \alpha_i x_i)^p \leq \sum \alpha_ x_i^p $- неравенсто Иенсена \\
+     $ (\sum \alpha_i x_i)^p \leq \sum \alpha_{x_i^p} $- неравенсто Йенсена \\
      $ \alpha_i  := \frac{b_i^q}{\sum_j b_j^q}, \alpha_i \beta_i^{-\frac{1}{p-1}} (\sum_j b_j^q) \\
      (\sum \alpha_i x_i)^p =(\sum a_i b_i^{q - \frac{1}{p-1}})^p =(\sum a_ib_i)^p,  (q=\frac{p}{p-1}, p(p-1)x^{p-2}>0, q-\frac{1}{p-1}=\frac{p}{p-1}- \frac{1}{p-1})\\
      \sum_i \frac{b_i^q}{\sum b_i^q} a_i^p b_i^{-\frac{p}{p-1}}(\sum b_j^q)^p = (\sum a_i^p)(\sum b_j^q)^{p-1} \\
@@ -946,12 +947,12 @@ $ \Longrightarrow\Longrightarrow \\
  Фокус: $ \int_1^{+\infty} \frac{|sinx|}{x^p}\geq \int_1^{+\infty}\frac{sin^2x}{x^p}=\int_1^{+\infty}\frac{1}{2x^p}_{(=+\infty)}-\int_1^{+\infty}\frac{cos2x}{x^p} \leftarrow$ сходится\\
  \section{Теорема. Признак Аблеля-Дирихле}
  D.1 f-доп. на$ [a,b),$ \\
-  \boxed{$F(A) = \int_a^A f$-ограничена }\\
+  $\boxed{F(A) = \int_a^A f-ограничена }$\\
   $ \exists K, \forall A \in (a,b), |\int_a^A f| \leq K $\\
   2. $ g \in C^1[a,b), g(x) \rightarrow 0, x\rightarrow 0, x\rightarrow b - 0$\\$  $
 $ g(x)- $монотонна\\
 \\
-Тогда \boxed{$ \int_a^bf(x)g(x)dx- $ сходится}\\
+Тогда $\boxed{ \int_a^bf(x)g(x)dx-  сходится}$\\
 \\
 A.1. f- доп.  $ \int_a^b f - $ сход. (не обязательно абсолютно)\\
  2. $ g \in C^1 [a,b), g(x)- $монотонна\\
@@ -979,28 +980,28 @@ $\int_0^{+\infty} \frac{sin x}{x} =\frac{\pi}{2} $-принцип Дирихле
 $ cosx +cos 3x + \dots+ cos nx = \frac{sin(n + \frac{1}{2}x)}{2 sin\frac{x}{2}}-\frac{1}{2} $\\
 $ \int_0^\pi cos kx = \frac{1}{k} sin kx|_0^\pi = 0$\\
 $ 0=\int_0^\pi \int_0^\pi \frac{sin(n+\frac{1}{2}x)}{2sin \frac{x}{2}} dx -\frac{\pi}{2} $\\
-\boxed{ $ \int_0^{\pi} h(x) sin Ax dx \rightarrow_{A \rightarrow +\infty} 0  $} - если $ h(x)  \in C^1 [0,\pi]$
+$\boxed{  \int_0^{\pi} h(x) sin Ax dx \rightarrow_{A \rightarrow +\infty} 0  }$ - если $ h(x)  \in C^1 [0,\pi]$
 
 \section{Ряды}
 \subsection{Простейшие свойства}
 $ S_N := a_1+a_2+a_3+ \dots + a_N = \sum_{n=1}^N a_n  $-частичная сумма \\
-\\Если существует \boxed{ $ lim_{N \rightarrow +\infty} S_N = S \in \overline{\mathbb{R}}$} ,то он  называется \textbf{сумма ряда}\\
+\\Если существует $\boxed{ lim_{N \rightarrow +\infty} S_N = S \in \overline{\mathbb{R}}}$ ,то он  называется $\textbf{сумма ряда}$\\
 $ S \in \mathbb{R} $- ряд сходится \\
 $ S = \underline{+}\infty $ или  $ not\exists lim S_N $ -ряд расходится \\
 \\Наблюдение:$ a_n =S_n -S_n{n-1} $\\
 $ \sum_{n=1}^{+\infty}0 =0 $ т.е. $ a_n =0, \forall n$\\
 $  \sum_{n=1}^{+\infty}1= +\infty, S_N=N  $\\ \\
 \subsection{m-ый остаток ряда}
-$ \fbox{ \sum_{n=m}^{+\infty} a_n = R_m} $\\
+$ \boxed{ \sum \limits_{n=m}^{+\infty} a_n = R_m} $\\
 \subsection{Свойства}
 
 1. $ \sum a_n, \sum b_n $-сходятся\\
 	$ c_n= a_n+b_n$ при всех n\\
-	Тогда \boxed{$\sum c_n $-сходится и $ \sum c_n =\sum a_n +\sum b_n $}\\
+	Тогда $\boxed{\sum c_n \text{-сходится и }  \sum c_n =\sum a_n +\sum b_n }$\\
 	Очевидно, $ S_N^{(c)}=S_N^{(a)}+S_N^{(b)} $\\
 	
 2. $ \sum a_n $-сходится $ \lambda \in \mathbb{R} $\\
- Тогда \boxed{$ \sum(\lambda a_n) $-сходится, $ (\sum\lambda a_n)=\lambda \sum a_n $}\\
+ Тогда $\boxed{ \sum(\lambda a_n) \text{ -сходится, } (\sum\lambda a_n)=\lambda \sum a_n }$\\
 $ S_N^{(\lambda a)} = \lambda S_N^{(a)} \\$
 
 3a. $ \sum_{n=1}^{+\infty} a_n $-сходящ $ \Rightarrow \forall m \geq 1 $-m-ый остаток есть сходящийся ряд\\
@@ -1011,14 +1012,14 @@ $ S_N^{(\lambda a)} = \lambda S_N^{(a)} \\$
 \textbf{Доказательство}\\
 a. $ \sum_{n=1}^N a_n = \sum_{n=1}^{m-1} a_n +\sum_{n=m}^N a_n  $, (при N>m) (*) \\
 
-В частности $ \fbox{\sum_{n=1}^{+\infty} a_n =  \sum_{n=1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n } $\\
+В частности $ \boxed{\sum_{n=1}^{+\infty} a_n =  \sum_{n=1}^{m-1} a_n +\sum_{n=m}^{+\infty} a_n } $\\
 б. m-ый остаток сходится  $  \rightarrow $ в  форме (*) $ N \rightarrow +\infty, \Rightarrow \sum a_n - $сходится\\
 
 \rfoot{2 апреля 2018}
 
 \subsection{Теорема(необъодимое условие сходимости)}
 $ \sum a_k - cx, $ Тогда\\
- \boxed{$ a_k \rightarrow_{k \rightarrow + \infty} 0 $}\\
+ $\boxed{ a_k \rightarrow_{k \rightarrow + \infty} 0 }$\\
 \textbf{Доказательство}\\
 $ a_k = S_k - S_{K-1} \rightarrow_{k \rightarrow +\infty} S - S = 0 $\\
 
@@ -1108,7 +1109,7 @@ $\boxed{\sum a_n -\text{сходится} \Leftrightarrow \text{плотност
         pro2. $ \lim_{n \rightarrow +\infty}D_n =D > 1,  \exists n , \forall n  > N, D_n > 1 \Rightarrow(A) $-расх.\\
         
         \section{Лемма}
-        $ a_n_1b_n>0 \\
+        $ a_{n_1} b_n>0 \\
         \frac{a_{n+1}}{a_n} \leq \frac{b{n+1}}{b_n}$ НСНМ \\
         $ (\sum b_n) -cx. \Rightarrow (\sum a_n )- cx. $\\
         
@@ -1131,7 +1132,7 @@ $\boxed{\sum a_n -\text{сходится} \Leftrightarrow \text{плотност
        \frac{\frac{1}{n+1}}{\frac{1}{n}} \leq \frac{a_{n+1}}{a_n}\\
        \sum \frac{1}{n}$-расх $ \Rightarrow \sum a_n $-расходится\\
        
-       \subsection{Следствие}\\
+       \subsection{Следствие}
        $ \lim n(\frac{a_n}{a_{n+1}}-1)=r \\
        r > 1 - cx\\
        r<! - $расх \\
@@ -1167,7 +1168,7 @@ $\boxed{\sum a_n -\text{сходится} \Leftrightarrow \text{плотност
         |\triangle_n|\leq \int_0^1 x^{2n+2} dx =\frac{1}{2n+3}\\ $
       $  \boxed{\frac{\pi}{4}=\sum \frac{(-1)^{n+1}}{2n-1}}$\\
       \section{Теорема}
-       $ a__n $-произвольные слагаемые Экв:
+       $ a_n $-произвольные слагаемые Экв:
        1) Ряд $ \sum a_n  $абс сходится\\
        2)$ \sum |a_n| -$сходится \\
        3) $ \sum a_n^+, \sum a_n^- $ оба сходятся\\
