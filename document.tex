@@ -62,6 +62,18 @@
 	\todo{Make a cake \ldots}
 	Look, this is TODO\insertref{actually what to change};
 	
+	\section{Правила оформления конспекта}
+	\begin{enumerate}
+		\item Используйте \verb|\leqslant|($\leqslant$) и \verb|\geqslant|($\geqslant$)
+		\item После интегралов и сумм используйте \verb|\limits| для границ \nl
+		С \verb|\limits| : $\int \limits^b_a, \;\;\; \sum \limits_{i = 1}^{\infty}$ \nl
+		Без : $\int^b_a,\;\;\; \sum_{i = 1}^{\infty}$
+		\item Не забывайте про \verb|\;| или \verb|\thickspace| между формулами, после запятых
+		\item Теги \verb|\then| - \then, \verb|\proof| - \proof  
+		\item Для списков используйте \verb|\begin{enumerate}| или \verb|\begin{itemize}| 
+		\item Очень помогает latex cheatsheet - гуглите
+	\end{enumerate}
+	
 	\newpage
 	\section{Неопределённый интеграл}
 	\lfoot{Автор конспекта: Константин Ништ}
@@ -133,11 +145,11 @@
 	Тогда $f$ равномерно непрерывна \nl
 	Доказательство(от противного):
 	$$ \exists \epsilon \forall \delta = \frac{1}{n} \exists x_n, {x'}_n \varrho(x_n, {x'}_n) < \delta $$
-	$$ \rho(f(x_n),f({x'}_n)) >= \epsilon $$ 
+	$$ \rho(f(x_n),f({x'}_n)) \geqslant \epsilon $$ 
 	Образовалась последовательность $x_n$ 
 	$$\exists {x_n}_k \rightarrow a \in X $$ 
 	$$ \rho({x_n}_k, {{x'}_n}_k)<\frac{1}{{n_k}} \Rightarrow {x_n}_k \rightarrow a $$ 
-	$$ \rho(f({x_n}_k), f({{x'}_n}_k)) >= \epsilon $$ 
+	$$ \rho(f({x_n}_k), f({{x'}_n}_k)) \geqslant \epsilon $$ 
 	Но обе последовательности стремятся к $f(a)$, получено противоречие. \nl
 	Следствие: $f : [a; b] \rightarrow \mathbb{R}$ непрерывно, тогда f равномерно непрерывно (например, $\sqrt{x}$);
 	
@@ -152,38 +164,45 @@
 	$f : [0; 1]^n \in \mathbb{R}^n \rightarrow [0; 1]^n, \; f $ непрерывна. \nl
 	\then
 	$$\exists x \in [0; 1]^n : f(x) = x$$
-	Доказательство (при n=2) : \nl
-	$x, y \in [0; 1] \nl$
-	$x = (x_1, x_2); y = (y_1, y_2); \rho(x,y) = max(|x_1-y_1|, |x_2-y_2|) \nl$
+	\proof (при n=2) 
+	$$ x, y \in [0; 1] $$
+	$$ x = (x_1, x_2); y = (y_1, y_2); \; \rho(x,y) = max(|x_1-y_1|, |x_2-y_2|) $$
 	Пусть $ \forall x f(x) != x$ \nl
-	$\forall x \rho(x, f(x))>0 ; 0 < \epsilon = min(\rho(x, f(x)))$, по теореме Вейерштрасса этот минимум существует. \nl
-	f равномерно непрерывно, значит $\exists \delta > 0 : \forall x,y ||x-y|| < \delta ||f(x)-f(y)|| < \epsilon$. Можно считать, что $\epsilon > \delta \nl$
+	По теорееме Виерштрасса существует такой минимум, что: 
+	$$ \forall x \rho(x, f(x))>0 ; \;\; 0 < \epsilon = min(\rho(x, f(x)))$$
+	$f$ равномерно-непрерывна, значит 
+	$$ \exists \delta > 0 : \forall x,y ||x-y|| < \delta ||f(x)-f(y)|| < \epsilon.$$ 
+	Можно считать, что $\epsilon > \delta \nl$
 	$ \exists n : \frac{1}{n} < \delta; Hex(n , n)$ — логическая доска.
 	$v = (v_1, v_2) \rightarrow (\frac{v_1}{n}, \frac{v_2}{n}) \in [0; 1]$ вершина доски. \nl
 	$color(v) = min(i \in \{1, 2\} : (f(\frac{v_i}{n})-\frac{v_i}{n})) \nl$ 
 	Доска покрашена. \nl
-	Рассмотрим одноцветный путь(существует по леммe) $v^0, v^1, \ldots , v^n$ \nl
-	$v^0_1 = 0; f_1(\frac{v^0_1}{n}-\frac{v^0_1}{n}) >=\epsilon$ \nl
-	$v^n_1 = 1; f_1(\frac{v^n_1}{n}-\frac{v^n_1}{n}) <=-\epsilon$ \nl
-	Рассмотрим расстояние между соседними вершинами \nl
-	$\rho(\frac{v^i}{n}, \frac{v^{i+1}}{n}) <= \frac{\sqrt{2}}{n} < \delta < \epsilon$ \nl
+	Рассмотрим одноцветный путь(существует по леммe) $v^0, v^1, \ldots , v^n$ 
+	$$v^0_1 = 0; f_1(\frac{v^0_1}{n}-\frac{v^0_1}{n}) \geqslant\epsilon$$ 
+	$$v^n_1 = 1; f_1(\frac{v^n_1}{n}-\frac{v^n_1}{n}) \leqslant-\epsilon$$ 
+	Рассмотрим расстояние между соседними вершинами 
+	$$ \rho(\frac{v^i}{n}, \frac{v^{i+1}}{n}) \leqslant \frac{\sqrt{2}}{n} < \delta < \epsilon $$
 	Следовательно, мы не могли перескочить через $2 \cdot \epsilon$, то есть наше начальное утверждение неверно. \nl
-	Теорема доказана.
+	\textbf{Теорема доказана.}
 	
 	\section{Определённый интеграл}
 	\subsection{Площадь}
 	\subsubsection{Определение площади}
 	E — совокупность всех окраниченных подмножеств в $\mathbb{R}^2$ \nl
-	Площадь : $\delta : E \rightarrow [0; +\infty]$, причём : \nl
-	1. Аддитивность : $A = A_1 \bigsqcup A_2 \Rightarrow \delta A = \delta A_1 + \delta A_2 \nl$
-	2. Нормировка : $\delta([a; b] x [c; d]) = (b-a) \cdot (d-c) \nl$
-	Замечание : $\delta \text{ монотонна} : A \in B \Rightarrow \delta A <= \delta B$
+	Площадь : $\delta : E \rightarrow [0; +\infty]$, причём :
+	\begin{enumerate}
+		\item Аддитивность : $A = A_1 \bigsqcup A_2 \Rightarrow \delta A = \delta A_1 + \delta A_2$
+		\item Нормировка : $\delta([a; b] \times [c; d]) = (b-a) \cdot (d-c) \nl$
+		Замечание : $\delta \text{ монотонна} : A \in B \Rightarrow \delta A \leqslant \delta B$
+	\end{enumerate}
 	
 	\subsubsection{Определение ослабленной площади}
-	1. Монотонна. \nl
-	2. Нормированна. \nl
-	3. Ослабленная аддитивность : $E = E_1 \bigcup E_2, E_1 \bigcap E_2$ вертикальный отрезок.\nl 
-	Тогда : $\delta E = \delta E_1 + \delta E_2$
+	\begin{enumerate}
+		\item Монотонна.
+		\item Нормированна.
+		\item Ослабленная аддитивность : $E = E_1 \bigcup E_2, E_1 \bigcap E_2$ вертикальный отрезок.
+	\end{enumerate}
+	\then $\;\; \delta E = \delta E_1 + \delta E_2$
 	
 	
 	\subsection{Определённый интеграл}
@@ -194,25 +213,27 @@
 	$f^-(x) = min(f(x), 0)$ отрицательная срезка. \nl
 	
 	\subsection{Подграфик}
-	Подграфиком функции f на $[a; b] (f : [a;b]\rightarrow \mathbb{R}; f>=0)$ называют \nl
+	Подграфиком функции $f$ на $[a; b] (f : [a;b]\rightarrow \mathbb{R}; f \geqslant 0)$ называют \nl
 	ПГ(f([a;b])) = {$(x, y) \in \mathbb{R}^2, x \in [a; b], y \in [0; f(x)]$}
 	
 	\subsection{Определение интеграла}
-	Определённым интегралом непрерывной функции f по промежутку [a;b] называется \nl
-	$\int^b_a f = \int^b_a f(x) dx = \int_{[a; b]} f(x) dx = \delta \text{ПГ}(f^+([a; b])) - \delta \text{ПГ}(f^-([a; b]))$ \nl
-	Замечание : $f \geq 0 \Rightarrow \int^b_a \geq 0; \int^a_a = 0$
+	Определённым интегралом непрерывной функции $f$ по промежутку $[a;b]$ называется 
+	$$ \int\limits^b_a f = \int\limits^b_a f(x) dx = \int\limits_{[a; b]} f(x) dx = \delta \text{ПГ}(f^+([a; b])) - \delta \text{ПГ}(f^-([a; b])) $$
+	Замечание : $f \geq 0 \Rightarrow \int\limits^b_a \geq 0; \int\limits^a_a = 0$
 	
 	\subsection{Свойства интеграла}
 	\subsubsection{Аддитивность по промежутку}
 	$c \in [a;b]; f$ непрерывна на [a; b] \nl
-	$\int_a^b f = \int_a^c f + \int^b_c f$ \nl
+	$\int_a^b f = \int_a^c f + \int^b_c f$ 
+	
 	\subsubsection{Монотонность} 
-	$f, g \in C[a; b]; f<=g \nl$
-	Тогда $\int^b_a f <= \int^b_a g$-интегрирование неравенств \nl
+	$f, g \in C[a; b]; f \leqslant g \nl$
+	Тогда $\int^b_a f \leqslant \int^b_a g$-интегрирование неравенств 
+	
 	\subsubsection{Теорема о среднем}l
 	$f \in C[a;b]; \exists c \in [a;b] : \int^b_a f(x)dx = f(c) \cdot (b-a) \nl$
 	Доказательство : \nl
-	По теореме Вейерштрасса $min(f) <= \frac{1}{b-a}\intba f <=max(f) \nl$
+	По теореме Вейерштрасса $min(f) \leqslant \frac{1}{b-a}\intba f \leqslant max(f) \nl$
 	По теореме о промежуточном значении $\exists c : f(c) = \intba f$
 	
 	\subsubsection{Теорема Барроу}
@@ -226,7 +247,7 @@
 	$x \in (a; b) \nl$
 	y>x; $\lim_{y \to x+0} \frac{\Phi(y)-\Phi(x)}{y-x} = \lim_{y \to x+0}\frac{\int^y_x}{y-x} = \lim_{y \to x+0} f(c) = f(x) \nl $
 	Также доказывается и левосторонняя производная. \nl
-	Следствие : у любой непрерывной функции есть первообразная/
+	Следствие : у любой непрерывной функции есть первообразная
 	
 	\subsubsection{Формула Ньютона-Лейбница}
 	$f \in C[a; b]; F$ первообразная f на [a; b]\nl
@@ -260,7 +281,7 @@
 	1. f-выпуклая на <a,b> \\
 	2. Если $x_{1} < x_{2} < x_{3}$  точки промежутка <a,b> \\
 	$ \frac{f(x_2)-f(x_1)}{x_2-x_1}\leq\frac{\displaystyle f(x_3)-f(x_1)}{\displaystyle x_3-x_1}\leq\frac{\displaystyle f(x_3)-f(x_2)}{\displaystyle x_3-x_2}$ \\
-	$(1) <=> (2) (f(x_2-f(x_1))(x_3 -x_1) \leq (f(x_3)-f(x_{1}))(x_{2}-x_{1})$ \\
+	$(1) \leqslant> (2) (f(x_2-f(x_1))(x_3 -x_1) \leq (f(x_3)-f(x_{1}))(x_{2}-x_{1})$ \\
 	
 	\textbf{Док-во}
 	
