@@ -1,5 +1,6 @@
 \documentclass[12pt, a4paper]{article}
 \usepackage[utf8]{inputenc} % если ваш файл содержит русский текст, нужно указать кодировку
+\usepackage[T2A]{fontenc}
 \usepackage[russian]{babel} % для того, чтобы писать русский текст
 \usepackage{amsmath} % для команды equation*
 \usepackage{hyperref} % для вставки ссылок
@@ -26,6 +27,10 @@
 \usepackage{lipsum}                     % Dummytext
 \usepackage{xargs}                      % Use more than one optional parameter in a new commands
 \usepackage{xcolor}
+
+\usepackage{setspace}
+\onehalfspacing
+
 \title{Математический анализ.}
 \author{Автор конспекта: Терентьев Михаил, Константин Ништ}
 \date{\today}
@@ -46,12 +51,16 @@
 \newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
 \newcommand{\explainindetail}[1]{\todo[color=red!40]{#1}}
 
+\newcommand{\proof}{\textbf{\underline{Доказательство:}} }
+\newcommand{\then}{\textbf{Тогда:}}
+
+\setenumerate{topsep=0ex,itemsep=0ex,partopsep=0ex,parsep=0ex}
 
 \begin{document}
 	\section{TODO TUTORIAL}
 	
-	\todo{Make a cake \ldots},
-	mfoermflgemgler\insertref{wqwsqdwqdqwd};
+	\todo{Make a cake \ldots}
+	Look, this is TODO\insertref{actually what to change};
 	
 	\newpage
 	\section{Неопределённый интеграл}
@@ -69,56 +78,67 @@
 	\text{ - множество всех первообразных } F \text{ от } f \newline
 	\int f = F + c, \text{ где } с \text{ - любая константа}
 	$
+	
 	\subsection{Теорема 1}
 	$f \text{ непрерывна } \Rightarrow \exists F \newline$
 	\text{Потом докажут}
 	
 	\subsection{Теорема 2}
-	Пусть F первообразная для f на <a; b>; Тогда \newline
-	1. $\forall c \in \mathbb{R}$ : F + C — первообразная \newline
-	2. Других первообразных не существует : Если  G первообразная для f, то $\exists C_1 : F = G + C_1 \newline$
-	Доказательство: $\newline$
-	1. Очевидно, что (F+C)' = F' + C' = F' + 0 = F' $\newline$
-	2. (G(x)-F(x))' = f(x) - f(x) = 0. Тогда G-F = const.
+	Пусть F первообразная для $f$ на $<a; b> \\ $
+	\then
+	\begin{enumerate}
+		\item $\forall c \in \mathbb{R}$ : F + C — первообразная 
+		\item Других первообразных не существует : Если  G первообразная для f, то $\exists C_1 : F = G + C_1$
+	\end{enumerate}
+	\proof
+	\begin{enumerate}
+		\item Очевидно, что (F+C)' = F' + C' = F' + 0 = F' 
+		\item (G(x)-F(x))' = f(x) - f(x) = 0. Тогда G-F = const.
+	\end{enumerate}
 	
 	\subsection{Теорема о свойствах неопределённого интеграла}
 	Пусть f и g имеют первообразную на <a; b>, $\alpha , \beta \in \mathbb{R} \newline$
-	Тогда : $\newline$
-	1. $\int f + g = \int f + \int g \newline$
-	2. $\int \alpha f = \alpha  \int f \newline$
-	3. $\varphi : <c; d> \rightarrow <a; b>$ дифф $\newline$
-	$\int f(\varphi(t)) \varphi ' (t)dt = \int f(x)dx | x = \varphi(t) \newline$
-	4. $\int f(\alpha x + \beta)dx = \frac{1}{\alpha} F (\alpha x + \beta) + C$
-	5. f и g дифференцируемы на <a; b> f'g имеет первообразную. Тогда : $\newline$
-	fg' имеет первообразную и $\int fg' = fg - \int f'g \newline$
-	Доказательство : $\newline$
-	1. (F + G)' = f + g $\newline$
-	2. ($\alpha$ F)' = $\alpha$f $\newline$
-	3-4. Аналогично по свойсту диффа композиции $\newline$
-	5. (fg)' = f'g + fg'; fg' = (fg)' - f'g $\newline$
-	$(fg- \int f'g)' = (fg' - f'g) = fg'$
+	\then
+	\begin{enumerate}
+		\item $\int f + g = \int f + \int g $
+		\item $\int \alpha f = \alpha  \int f $
+		\item $\varphi : <c; d> \rightarrow <a; b>$ дифф 
+		$\int f(\varphi(t)) \varphi ' (t)dt = \int f(x)dx | x = \varphi(t) $
+		\item $\int f(\alpha x + \beta)dx = \frac{1}{\alpha} F (\alpha x + \beta) + C$
+		\item f и g дифференцируемы на <a; b> f'g имеет первообразную. Тогда : \\
+		fg' имеет первообразную и $\int fg' = fg - \int f'g $
+	\end{enumerate}
+	\proof
+	\begin{enumerate}
+		\item $(F + G)' = f + g $
+		\item $(\alpha F)'$ = $\alpha f $
+		\item[3-4.] Аналогично по свойсту диффа композиции 
+		\item[5.] (fg)' = f'g + fg'; fg' = (fg)' - f'g 
+		$(fg- \int f'g)' = (fg' - f'g) = fg'$
+	\end{enumerate}
 	
 	\section{Равномерная непрерывность}
 	\subsection{Определение}
 	f : <a; b> $\rightarrow \mathbb{R}$ называется равномерно непрерывной на <a;b>, если : \nl
 	$\forall \epsilon >0 \thickspace \exists \delta > 0 \thickspace \forall x, \thickspace x' \in <a;b>, \thickspace |x-x'|<\delta : f(x)-f(x')<\epsilon \nl$
-	Примеры : \nl
-	1. f(x) = x, <a; b> = $\mathbb{R}$ равномерно непрерывна \nl
-	2. f(x) = $x^2$ не равномерно непрерывна \nl
+	Примеры :
+	\begin{enumerate}
+		\item $f(x) = x, <a; b> = \mathbb{R}$ равномерно непрерывна 
+		\item $f(x) = x^2$ не равномерно непрерывна 
+	\end{enumerate}
 	
 	
 	\subsection{Теорема Кантора о равномерной непрерывности} 
 	$f : X \rightarrow Y$ непрерывно на Х, Х компактно. \nl
-	Тогда f равномерно непрерывно \nl
-	Доказательство: \nl
-	От противного : \nl
-	$\exists \epsilon \forall \delta = \frac{1}{n} \exists x_n, {x'}_n \varrho(x_n, {x'}_n) < \delta$ \nl
-	$\rho(f(x_n),f({x'}_n)) >= \epsilon$ \nl
-	Образовалась последовательность $x_n$ \nl
-	$\exists {x_n}_k \rightarrow a \in X$ \nl
-	$\rho({x_n}_k, {{x'}_n}_k)<\frac{1}{{n_k}} \Rightarrow {x_n}_k \rightarrow a$ \nl
-	$\rho(f({x_n}_k), f({{x'}_n}_k)) >= \epsilon$ \nl
-	Но обе последовательности стремятся к f(a), получено противоречие. \nl
+	Тогда $f$ равномерно непрерывна \nl
+	Доказательство(от противного):
+	$$ \exists \epsilon \forall \delta = \frac{1}{n} \exists x_n, {x'}_n \varrho(x_n, {x'}_n) < \delta $$
+	$$ \rho(f(x_n),f({x'}_n)) >= \epsilon $$ 
+	Образовалась последовательность $x_n$ 
+	$$\exists {x_n}_k \rightarrow a \in X $$ 
+	$$ \rho({x_n}_k, {{x'}_n}_k)<\frac{1}{{n_k}} \Rightarrow {x_n}_k \rightarrow a $$ 
+	$$ \rho(f({x_n}_k), f({{x'}_n}_k)) >= \epsilon $$ 
+	Но обе последовательности стремятся к $f(a)$, получено противоречие. \nl
 	Следствие: $f : [a; b] \rightarrow \mathbb{R}$ непрерывно, тогда f равномерно непрерывно (например, $\sqrt{x}$);
 	
 	\section{Теорема Брауэра о неподвижной точке (БЕГИ И НЕ ОГЛЯДЫВАЙСЯ)}
@@ -129,9 +149,9 @@
 	Рассмотрим левый край ромба. Выберем ребро на карте, которое разделяет чёрную и белую клетки (причём выберем ребро принадлежащее левому краю и ближайшее к нижнему левому углу). Будем идти по вершинам карты, причём каждый раз будем выбирать именно ту вершину, ребро до которой разделяет чёрную и белую клетки. Таким образом, всегда выполняется инвариант для игры : по "левую руку" от нас находится клетка одного цвета, по "правую" противоположного. Утверждается, что зациклиться мы не можем, ибо каждая вершина принадлежит трём клеткам, и если мы пошли по одному ребру и вернулись в ту же вершину, то одна и та же вершина окажется двух противоположных цветов (что, конечно же, звучит как бред). Таким образом мы сможем дойти до конца, и, так как наш путь содержит начало пути двух цветов, мы сможем точно определить победителя. Лемма доказана. \nl
 	
 	\subsection{Теорема Брауэра}
-	$f : [0; 1]^n \in \mathbb{R}^n \rightarrow [0; 1]^n$ \nl
-	f непрерывна. \nl
-	Тогда : $\exists x \in [0; 1]^n : f(x) = x$ \nl
+	$f : [0; 1]^n \in \mathbb{R}^n \rightarrow [0; 1]^n, \; f $ непрерывна. \nl
+	\then
+	$$\exists x \in [0; 1]^n : f(x) = x$$
 	Доказательство (при n=2) : \nl
 	$x, y \in [0; 1] \nl$
 	$x = (x_1, x_2); y = (y_1, y_2); \rho(x,y) = max(|x_1-y_1|, |x_2-y_2|) \nl$
@@ -1102,7 +1122,7 @@
 	$ a_{N+K} \leq const q^k \\
 	\sum q^k -cx. \Rightarrow \sum_{k=1}^{+\infty} a_{N+K}- cx. \\
 	2. \exists N  $ при $ n \geq N, a_{n+1} \geq a_n \\
-	\Rightarrow a_n \up  $ при $ n \geq N \Rightarrow a_n  not \rightarrow 0 \Rightarrow A- $расходится \\
+	\Rightarrow a_n \uparrow $ при $ n \geq N \Rightarrow a_n  not \rightarrow 0 \Rightarrow A- $расходится \\
 	
 	pro1. $ \lim D_n= D < 1 , $ Пусть $ D< q < 1 \\ $
 	Тогда $ \exists N, \forall n > N , D_n < q,  $т.е. по l.1  (A) -сх. \\
