@@ -53,6 +53,7 @@
 
 \newcommand{\proof}{\textbf{\underline{Доказательство:}} }
 \newcommand{\then}{\textbf{Тогда:}}
+\newcommand{\definition}{\textbf{\textit{Определение:}}}
 
 \setenumerate{topsep=0ex,itemsep=0ex,partopsep=0ex,parsep=0ex}
 
@@ -69,7 +70,12 @@
 		С \verb|\limits| : $\int \limits^b_a, \;\;\; \sum \limits_{i = 1}^{\infty}$ \nl
 		Без : $\int^b_a,\;\;\; \sum_{i = 1}^{\infty}$
 		\item Не забывайте про \verb|\;| или \verb|\thickspace| между формулами, после запятых
-		\item Теги \verb|\then| - \then, \verb|\proof| - \proof  
+		\item Теги 
+		\begin{itemize}
+			\item \verb|\then| - \then
+			\item \verb|\proof| - \proof
+			\item \verb|\definition| - \definition
+		\end{itemize}
 		\item Для списков используйте \verb|\begin{enumerate}| или \verb|\begin{itemize}| 
 		\item Очень помогает latex cheatsheet - гуглите
 	\end{enumerate}
@@ -109,15 +115,15 @@
 	\end{enumerate}
 	
 	\subsection{Теорема о свойствах неопределённого интеграла}
-	Пусть f и g имеют первообразную на <a; b>, $\alpha , \beta \in \mathbb{R} \newline$
+	Пусть $f$ и $g$ имеют первообразную на <a; b>, $\alpha , \beta \in \mathbb{R} \newline$
 	\then
 	\begin{enumerate}
 		\item $\int f + g = \int f + \int g $
 		\item $\int \alpha f = \alpha  \int f $
-		\item $\varphi : <c; d> \rightarrow <a; b>$ дифф 
+		\item $\varphi : <c; d> \rightarrow <a; b>$ дифф \nl
 		$\int f(\varphi(t)) \varphi ' (t)dt = \int f(x)dx | x = \varphi(t) $
 		\item $\int f(\alpha x + \beta)dx = \frac{1}{\alpha} F (\alpha x + \beta) + C$
-		\item f и g дифференцируемы на <a; b> f'g имеет первообразную. Тогда : \\
+		\item $f$ и $g$ дифференцируемы на $<a; b> \; f'g$ имеет первообразную. Тогда : \nl
 		fg' имеет первообразную и $\int fg' = fg - \int f'g $
 	\end{enumerate}
 	\proof
@@ -125,7 +131,7 @@
 		\item $(F + G)' = f + g $
 		\item $(\alpha F)'$ = $\alpha f $
 		\item[3-4.] Аналогично по свойсту диффа композиции 
-		\item[5.] (fg)' = f'g + fg'; fg' = (fg)' - f'g 
+		\item[5.] $(fg)' = f'g + fg'; fg' = (fg)' - f'g $ \nl
 		$(fg- \int f'g)' = (fg' - f'g) = fg'$
 	\end{enumerate}
 	
@@ -142,8 +148,8 @@
 	
 	\subsection{Теорема Кантора о равномерной непрерывности} 
 	$f : X \rightarrow Y$ непрерывно на Х, Х компактно. \nl
-	Тогда $f$ равномерно непрерывна \nl
-	Доказательство(от противного):
+	\then $\; f$ равномерно непрерывна \nl
+	\proof (от противного)
 	$$ \exists \epsilon \forall \delta = \frac{1}{n} \exists x_n, {x'}_n \varrho(x_n, {x'}_n) < \delta $$
 	$$ \rho(f(x_n),f({x'}_n)) \geqslant \epsilon $$ 
 	Образовалась последовательность $x_n$ 
@@ -223,38 +229,38 @@
 	
 	\subsection{Свойства интеграла}
 	\subsubsection{Аддитивность по промежутку}
-	$c \in [a;b]; f$ непрерывна на [a; b] \nl
-	$\int_a^b f = \int_a^c f + \int^b_c f$ 
+	$$c \in [a;b]; f \text{непрерывна на [a; b]}$$
+	$$\int\limits_a^b f = \int\limits_a^c f + \int\limits^b_c f$$
 	
 	\subsubsection{Монотонность} 
-	$f, g \in C[a; b]; f \leqslant g \nl$
-	Тогда $\int^b_a f \leqslant \int^b_a g$-интегрирование неравенств 
+	$$ f, g \in C[a; b]; f \leqslant g $$
+	$$ \then \int^b_a f \leqslant \int^b_a g \text{-интегрирование неравенств}$$
 	
-	\subsubsection{Теорема о среднем}l
-	$f \in C[a;b]; \exists c \in [a;b] : \int^b_a f(x)dx = f(c) \cdot (b-a) \nl$
-	Доказательство : \nl
-	По теореме Вейерштрасса $min(f) \leqslant \frac{1}{b-a}\intba f \leqslant max(f) \nl$
-	По теореме о промежуточном значении $\exists c : f(c) = \intba f$
+	\subsubsection{Теорема о среднем}
+	$$ f \in C[a;b]; \exists c \in [a;b] : \int^b_a f(x)dx = f(c) \cdot (b-a) $$
+	\proof \nl
+	По теореме Вейерштрасса $$ min(f) \leqslant \frac{1}{b-a}\intba f \leqslant max(f)  $$
+	По теореме о промежуточном значении $$ \exists c : f(c) = \intba f $$
 	
 	\subsubsection{Теорема Барроу}
-	Определение: \nl
+	\definition \nl
 	$\Phi : [a;b] \rightarrow \mathbb{R}, f \in [a;b] \nl$
 	$\Phi(x) = \int_a^x f$ интеграл с переменным верхним пределом. \nl
-	$\Phi(a) = 0$
-	Теорема : 
-	$\Phi(x)$ дифф на [a; b] и $\forall x \in [a; b] \Phi'(x) = f(x)$ \nl
-	Доказательство : \nl
+	$\Phi(a) = 0$ \nl
+	\textbf{Теорема:} 
+	$$ \Phi(x) \text{ дифф на } [a; b] \text{ и } \forall x \in [a; b] \Phi'(x) = f(x)$$
+	\proof \nl
 	$x \in (a; b) \nl$
-	y>x; $\lim_{y \to x+0} \frac{\Phi(y)-\Phi(x)}{y-x} = \lim_{y \to x+0}\frac{\int^y_x}{y-x} = \lim_{y \to x+0} f(c) = f(x) \nl $
+	$$ y>x;\;\; \lim_{y \to x+0} \frac{\Phi(y)-\Phi(x)}{y-x} = \lim_{y \to x+0}\frac{\int^y_x}{y-x} = \lim_{y \to x+0} f(c) = f(x) $$
 	Также доказывается и левосторонняя производная. \nl
 	Следствие : у любой непрерывной функции есть первообразная
 	
 	\subsubsection{Формула Ньютона-Лейбница}
-	$f \in C[a; b]; F$ первообразная f на [a; b]\nl
-	Тогда $\intba f(x)dx = F(b)-F(a) \nl$
-	Доказательство : \nl
+	$f \in C[a; b];\;\; F$ - первообразная $f$ на $[a; b]$\nl
+	\then $$\int\limits^b_a f(x)dx = F(b)-F(a) $$
+	\proof \nl
 	$\Phi$ тоже первообразная. F = $\Phi + C\nl$
-	$\intba f = \Phi(b)-\Phi(A) = F(b)-F(a)$
+	$$ \int\limits^b_a f = \Phi(b)-\Phi(A) = F(b)-F(a) $$
 	
 	
 	
