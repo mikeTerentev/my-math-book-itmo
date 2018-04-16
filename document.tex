@@ -1177,6 +1177,7 @@
 	$   2\Rightarrow 3 , 0 \leq a_n^+ \leq |a_n| \\
 	3\Rightarrow 1 : a_n = a_N^+ - a_n^- , |a_n| = a_n^+ +a_n^- \\
 	$         
+<<<<<<< HEAD
 	\section{Сходимость  знакопеременных рядов}
 	
 	\subsection{Признак Лейбница}
@@ -1231,6 +1232,62 @@
 	
 	
 	
+=======
+         \section{Сходимость  знакопеременных рядов}
+         
+         \subsection{Признак Лейбница}
+        \includegraphics{leidn.png}
+         $ c_1 \geq c_2 \geq \dots 0 , c_n \rightarrow 0 $\\
+         Тогда $ 2(-1)^{n-1}c_n $-сходится\\ 
+         \textbf{Секретное приложение}
+         $ |\sum_{K \geq N}(-1)^{k-1}| \leq C_N $\\
+         
+         $ S_{2n} \uparrow,  S_{2n}+c_{2n+1} - c_{2n +2} > S_{2n+2}  \\
+         S_{2n}$-ограничена сверху, $ S_{2n \leq c_1} \\
+         S_{2n}= c_1 -  c_2 + c_3- c_{2n-2} + c_{2n-1}  - c_{2n}$ разность по парам 2n-2 и  2n-1  не больше нуля \\
+         $ \exists \lim S_{2n} = S \\
+         S_{2n+1}(\rightarrow S)=S_{2n}(\rightarrow S)+ c_{2n + 1}(\rightarrow 0) $\\
+         \textbf{Очен грустный пример}\\
+          $ (1)\sum \frac{(-1)^k}{\sqrt{k}+(-1)^k} \\
+         (2)  \sum \frac{(-1)^k}{\sqrt{k}} \\
+           \frac{(-1)^k}{\sqrt{k}+(-1)^k} - \frac{(-1)^k}{\sqrt{k}}=(-1)^k \frac{\sqrt{k} - \sqrt{k}+(-1)^k}{(\sqrt{k}+(-1)^k)\sqrt{k}}= -\frac{1}{(\sqrt{k}+(-1)^k \sqrt{k})} \sim_{k \rightarrow +\infty} - \frac{1}{k} \\$ -расходящийся \\
+           $ (3) \sum \frac{(-1)^k}{\sqrt{k} + (-1)^k} - \frac{(-1)^k}{\sqrt{k}} = \sum \frac{-1}{(\sqrt{k})+(-1)^k \sqrt{k}} \\$
+           Для знакоперемнных рядов  неверен признак сравнения \\
+           $ a_n \sim b_n $и при этом  $\sum a_n$ -сходящ ,$ \sum b_n$-расходящ  \\ Это возможно. \\
+           $ \sum \frac{(-1)^n}{\sqrt{n}}, \; a_n = \frac{(-1)^n}{\sqrt{n}} \\
+           \sum (\frac{(-1)^n}{\sqrt{n}} +\frac{1}{n}), \; b_n = \frac{(-1)^n}{\sqrt{n}}+\frac{1}{n} == a_n + o(a+n)\\
+           \int_{1}^{+ \infty} \frac{sin x}{\sqrt{x}} \; \int_1^{+\infty} \frac{\sin x}{\sqrt{x}} + \frac{\sin^2x }{x}   $- дает расхождение\\
+           \section{Теорема(признак Абеля и Дирихле)}
+           $ \boxed{D} A_n -\text{ограничена}: \exists C_A \forall b , |a_1 + a_2 + \dots a_n |\leq C_A \\
+           b_n \text{- монотонна, ограничена } \exists c_b \forall n , |b_n|\leq C_n\\
+           \text{Тогда} \sum a_n b_n \text{ -сходится}$\\
+           \textbf{Доказательство}
+          $ \boxed{D} \text{здесь тоже } \exists C_b, \forall n, | b_n| \leq C_b \\
+          \sum_{k=1}^{n} a_kb_k = \underbrace{A_nb_b}_{\text{огр. бм}} + \underbrace{\sum_{k=1}^{n-1} (b_k - b_{k-1}) A_k}_{\sum_{k=1}^{n-1} |b_k - b_{k+1}| |A_k| \leq 	C_A \sum_{k=1}^{n-1} |b_k - b_{k+1}| = C_A |b_1 - b_n \leq C_A 2C_B| \text{такие суммы ограничены}} \\
+          \Rightarrow \sum_{k=1}^{+\infty} |b_k - b_{k+1}||A_k|\text{-сходящ} \Rightarrow \sum_{k=1}^{+\infty} (b_k - b_{k+1})A_k\text{ - сходящийся]}$ \\
+          \textbf{Пример}\\
+          $ \sum_{n=1}^{+\infty} \frac{\sin n}{n^p} \\
+          \text{?p - cx, ?p - абс. сх.} \\
+          1. p=0 : \sum \sin n \text{-расходится,} \sin n \; not \rightarrow 0 \\
+           p<0 \sum \frac{1}{n^p} \sin n  not \rightarrow 0 \\
+           \text{нет схоидмости} \\
+           2. p>1, \; |\frac{\sin n}{n^p}| \leq \frac{1}{n^p}, \;  \sum \frac{1}{n^p} \text{-сходящаяся} \\
+           \sum \frac{\sin n}{n^p} \text{абс сх}\\
+           3. p < p \leq 1, \text{сходятся по принципу Дирихле} \\
+           D_n = \sin n \\
+           b_N =\frac{1}{n^p} \longrightarrow 0 , \text{монотонна} \\
+           \text{Проверим :} \exists C_A , \forall n : |\sin 1 +\sin 2 + \sin 3 + \dots + \sin n|\leq C_A\\$
+           
+           $ f(x+y) =f(x) f(y)\\
+           \exp^{ix}= \cos x + i \sin x \; sinx = Im(\exp^{ix})\\
+           \cos x = \frac{\exp^{ix} + \exp^{-ix}}{2}\\
+            \sin x = \frac{\exp^{ix}-\exp^{-ix}}{2i} \\
+            |\sin 1 + \dots+ \sin n | = |Im(E^I+ \dots \exp^{ni})| \leq |e^i+\dots + \exp^{ni}| = |e^i \frac{e^{ni} - 1 }{e^i -1}| = \underbrace{|e^i|}_{=1}|e^i| \frac{|e^{ni}-1|}{e^i -1} \leq \frac{2}{|e^i -1|} =: C_A \text{-используем геометрическую прогрессию}\\ 
+            \sum |\frac{\sin n}{n^p}| \geq \sum \frac{\sin^2 n}{n^p}= \underbrace{\frac{1}{2}\sum \frac{1}{n^p}}_{+\infty} - \underbrace{\frac{1}{2}\sum\frac{\cos 2n}{n^p}}_{\text{кон. Ряд сходится по Дирихле}}$
+        
+       
+
+>>>>>>> b05a3ab1132dcad2de454e7c5b07643779cd9508
 	
 	
 \end{document}
